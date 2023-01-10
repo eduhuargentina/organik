@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;700;900&family=Fjalla+One&display=swap');
+
+.textoBlanco1{
+    text-decoration: none;
+    color: rgb(218, 248, 201);
+    font-size: 1rem;
+}
+.texto300{
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 300;
+}
+
+.texto500{
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 500;
+}
+
+.texto700{
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 700;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: rgb(4, 77, 34);
+    padding: 10px;
+    position: fixed;
+}
+
+.contenedorLogoFrase{
+    display: flex;
+    width: 25%;
+}
+.contenedor_logo{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 30%;
+}
+
+.logo{
+    width: 60%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.contenedor_frase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 70%;
+    color: rgb(218, 248, 201);
+    
+}
+
+.frase{
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 0.8rem;
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    
+}
+.navegacion{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navegacion li a{
+    text-decoration: none;
+    color: rgb(218, 248, 201);
+    font-size: 1rem;
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 500;
+}
+
+
+.boton_hacer_pedido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.boton_hacer_pedido a{
+
+
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(4, 77, 34);
+    background-color: rgb(218, 248, 201);
+    padding: 3px;
+}
+
+.mainIndex{
+    display: flex;
+    flex-direction: row;
+    background-image: url(../assets/img/campo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+    padding-top: 100px;
+   
+}
+
+.mainLeft{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.mainRight{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.proximosEnvios{
+    font-family: 'Alexandria', sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(1, 27, 12);
+    background-color: rgb(232, 255, 235);
+    padding: 50px;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.boton_hacer_pedido_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.boton_hacer_pedido_main a{
+
+
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(218, 248, 201);
+    background-color: rgb(4, 77, 34);
+    border-color: rgb(218, 248, 201);
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.bolsones{
+    font-family: 'Alexandria', sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(1, 27, 12);
+    background-color: rgb(232, 255, 235);
+    padding: 30px;
+    justify-content: start;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 230px;
+    height: 300px;
+    text-align: start;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    background-image: url(../assets/img/pattern.jpg);
+    padding: 3%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top: 3px;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    justify-content: space-evenly;
+
+}
+
+.infoSection{
+    
+        font-family: 'Alexandria', sans-serif;
+        text-decoration: none;
+        border-radius: 10px;
+        color: rgb(1, 27, 12);
+        background-color: rgb(232, 255, 235);
+        padding: 30px;
+        justify-content: start;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        width: 25%;
+        height: 50%;
+        text-align: start;
+}
+
+
+footer{
+
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(4, 77, 34);
+
+}
+
+.footer_superior{
+    display: flex;
+    padding-top: 2%;
+
+}
+.contenedorLogoFraseFooter{
+    display: flex;
+    justify-content: end;
+    width: 60%;
+}
+
+.contenedor_logo_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.logoFooter{
+    width: 60%;
+}
+
+.logoFooter img{
+    width: 100%;
+}
+
+.contenedor_frase_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 70%;
+    color: rgb(218, 248, 201);
+    
+}
+
+.fraseFooter{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 0.8rem;
+
+}
+
+.espacioFooter{
+    width: 10%;
+}
+
+.redes_sociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30%;
+}
+
+.redes_sociales a{
+    text-decoration: none;
+    color: rgb(218, 248, 201);
+    display: flex;
+    padding: 5px;
+    
+}
+
+.footer_inferior{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    width: 80%;
+    height: 40%;
+    border: solid 1px  rgb(218, 248, 201);
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+
+}
+
+.footer_title{
+    color: rgb(218, 248, 201);  
+    display: flex;
+    width: 40%;
+    text-align: center;
+}
+
+.form_footer_input{
+    color: rgb(218, 248, 201);  
+    display: flex;
+    width: 40%;
+    justify-content: end;
+    font-size: 0.8rem;
+
+}
+
+.footer_buttom{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
+
+.footer_buttom a{
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(4, 77, 34);
+    background-color: rgb(218, 248, 201);
+    padding: 3px;
+}
+
+.portadaGaleria{
+    display: flex;
+    flex-direction: column;
+
+}
+.dondeEstamos{
+
+    background-image: url(../assets/img/cultivo-maiz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 200px;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    color: rgb(1, 27, 12);
+}
+
+.dondeEstamosMenu{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nuestrosProductores{
+    width: 50%;
+    background-image: url(../assets/img/invernadero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    color: rgb(1, 27, 12);
+}
+
+.nuestroPuntoDeEntrega{
+    width: 50%;
+    background-image: url(../assets/img/nena\ y\ verduras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    color: rgb(1, 27, 12);
+}
+
+.mapa{
+    display: flex;
+    background-image: url(../assets/img/pattern.jpg);
+    justify-content: center;
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    color: rgb(1, 27, 12);
+
+}
+.galeria{
+    background-color:  rgb(4, 77, 34);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria img{
+    width: 30%;
+    padding: 2px;
+    opacity: 0.8;
+}
+
+.galeria img:hover{
+    opacity: 1;
+}
+
+.porQueOrganik{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/img/pattern.jpg);
+    color:  rgb(218, 248, 201);
+    justify-content: center;
+    align-items: center;
+}
+
+.explicacionUno{
+    background-image: url(../assets/img/moras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 30%;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 30px;   
+    border-color: rgb(4, 77, 34);
+    border-style: solid;
+}
+
+.explicacionUno h3{
+
+    padding: 20px;
+}
+.explicacionUno h1{
+    padding-bottom: 20px;
+}
+
+.explicacionUno p{
+    padding-bottom: 20px;
+}
+
+.explicacionDos{
+    background-image: url(../assets/img/riego.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 30%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;   
+    border-color: rgb(4, 77, 34);
+    border-style: solid;
+}
+
+.explicacionDos h3{
+
+    padding: 20px;
+}
+.explicacionDos h1{
+    padding-bottom: 20px;
+}
+
+.explicacionDos p{
+    padding-bottom: 20px;
+}
+
+.explicacionTres{
+    background-image: url(../assets/img/peras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 30%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;   
+    border-color: rgb(4, 77, 34);
+    border-style: solid;
+}
+
+.explicacionTres h3{
+
+    padding: 20px;
+}
+.explicacionTres h1{
+    padding-bottom: 20px;
+}
+
+.explicacionTres p{
+    padding-bottom: 20px;
+}
+
+.explicacionCuatro{
+    background-image: url(../assets/img/campo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 30%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;   
+    border-color: rgb(4, 77, 34);
+    border-style: solid;
+}
+
+.explicacionCuatro h3{
+
+    padding: 20px;
+}
+.explicacionCuatro h1{
+    padding-bottom: 20px;
+}
+
+.explicacionCuatro p{
+    padding-bottom: 20px;
+}
+
+.portadaContacto{
+    display: flex;
+    flex-direction: column;
+
+}
+.contacto{
+
+    background-image: url(../assets/img/riego.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 150px;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    color: rgb(1, 27, 12);
+}
+.contacto h1{
+    padding-top: 80px;
+}
+.contacto h3{
+    padding: 20px;
+}
+
+.infoContacto{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/img/pattern.jpg);
+    text-align: center;
+    padding: 100px;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    color: rgb(1, 27, 12);
+}
+
+.datosContacto{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.datosContactoLeft{
+
+    display: flex;
+    background-image: url(../assets/img/peras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: start;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    padding-left: 15%;
+    width: 50%;
+    color: rgb(218, 248, 201);
+}
+
+.datosContactoRight{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/img/moras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    width: 50%;
+    color: rgb(218, 248, 201);
+
+}
+
+.wapp{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: start;
+    align-items: center;
+}
+.wapp a{
+    color: rgb(218, 248, 201);
+    justify-content: start;
+}
+.wapp h2{
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+
+}
+.mail{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    justify-content: start;
+    align-items: center;
+}
+
+.mail a{
+    color: rgb(218, 248, 201);
+    text-decoration: none;
+    justify-content: start;
+}
+
+.mail h2{
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+
+}
+
+
+.portadaPreguntasFrecuentes{
+    display: flex;
+    flex-direction: column;
+
+}
+.preguntasFrecuentes{
+
+    background-image: url(../assets/img/nena\ y\ verduras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 200px;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    color: rgb(218, 248, 201);
+}
+.preguntasFrecuentes h3{
+    padding: 20px;
+}
+
+.preguntas{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/img/pattern.jpg);
+    text-align: center;
+    padding: 100px;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    color: rgb(1, 27, 12);
+}
+
+.avisoHacerPedido{
+    text-align: center;
+    padding: 80px;
+    background-image: url(../assets/img/nena\ y\ verduras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.avisoHacerPedido h1{
+    padding-top: 80px;
+}
