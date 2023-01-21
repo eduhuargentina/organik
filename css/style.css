@@ -36,7 +36,7 @@ header{
     display: flex;
     width: 25%;
 }
-.contenedor_logo{
+.contenedorLogo{
     display: flex;
     justify-content: right;
     align-items: center;
@@ -51,7 +51,7 @@ header{
     width: 100%;
 }
 
-.contenedor_frase{
+.contenedorFrase{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,14 +93,14 @@ nav{
 }
 
 
-.boton_hacer_pedido{
+.botonHacerPedido{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 25%;
 }
 
-.boton_hacer_pedido a{
+.botonHacerPedido a{
 
 
     font-family: 'Alexandria', sans-serif;
@@ -153,14 +153,14 @@ nav{
     width: 90%;
 }
 
-.boton_hacer_pedido_main{
+.botonHacerPedidoMain{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
 }
 
-.boton_hacer_pedido_main a{
+.botonHacerPedidoMain a{
 
 
     font-family: 'Alexandria', sans-serif;
@@ -190,7 +190,7 @@ nav{
     text-align: start;
 }
 
-section{
+.section{
     display: flex;
     flex-direction: row;
     background-image: url(../assets/img/pattern.jpg);
@@ -230,7 +230,7 @@ footer{
 
 }
 
-.footer_superior{
+.footerSuperior{
     display: flex;
     padding-top: 2%;
 
@@ -241,7 +241,7 @@ footer{
     width: 60%;
 }
 
-.contenedor_logo_footer{
+.contenedorLogoFooter{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,7 +256,7 @@ footer{
     width: 100%;
 }
 
-.contenedor_frase_footer{
+.contenedorFraseFooter{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -277,7 +277,7 @@ footer{
     width: 10%;
 }
 
-.redes_sociales{
+.redesSociales{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -285,7 +285,7 @@ footer{
     width: 30%;
 }
 
-.redes_sociales a{
+.redesSociales a{
     text-decoration: none;
     color: rgb(218, 248, 201);
     display: flex;
@@ -293,7 +293,7 @@ footer{
     
 }
 
-.footer_inferior{
+.footerInferior{
     display: flex;
     flex-direction: row;
     padding-left: 5%;
@@ -310,14 +310,14 @@ footer{
 
 }
 
-.footer_title{
+.footerTitle{
     color: rgb(218, 248, 201);  
     display: flex;
     width: 40%;
     text-align: center;
 }
 
-.form_footer_input{
+.formFooterInput{
     color: rgb(218, 248, 201);  
     display: flex;
     width: 40%;
@@ -326,13 +326,13 @@ footer{
 
 }
 
-.footer_buttom{
+.footerButtom{
     display: flex;
     width: 20%;
     justify-content: center;
 }
 
-.footer_buttom a{
+.footerButtom a{
     font-family: 'Alexandria', sans-serif;
     font-weight: 500;
     text-decoration: none;
