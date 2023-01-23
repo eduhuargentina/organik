@@ -694,13 +694,23 @@ footer{
 .portadaPreguntasFrecuentes{
     display: flex;
     flex-direction: column;
+    height: 102vh;
 
+}
+
+.bgPreguntasFrecuentes{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(4, 77, 34);
+    
 }
 .preguntasFrecuentes{
 
     background-image: url(../assets/img/nena\ y\ verduras.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center 50%;
+    background-size: 100vh;
+    margin-top: 15vh;
     text-align: center;
     padding: 200px;
     border-style: solid;
@@ -712,6 +722,8 @@ footer{
 }
 
 .preguntas{
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     background-image: url(../assets/img/pattern.jpg);
@@ -734,4 +746,15 @@ footer{
 }
 .navbar{
     background-color: rgb(4, 77, 34);
+}
+
+input{
+    width: 150px; height: 30px;
+    transition: all 1s;
+}
+
+
+input:focus{
+    width: 200px;
+    font-size: 30px;
 }
