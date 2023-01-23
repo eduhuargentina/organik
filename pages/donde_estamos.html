@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OrgániK</title>
+    <!--cdn bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!--mi css-->
     <link rel="stylesheet" href="../css/style.css">
     <!--cdn font awsome-->
@@ -14,39 +17,47 @@
 </head>
 <body>
 
-    <header>
+    <header>  
 
-        <div class="contenedorLogoFrase">
-            <div class="contenedorLogo">
-                <a class="logo" href="../index.html">
-                    <img src="../assets/logo/pngwing.com.png" alt="logo organica">
-                </a>
+        <!--navbar bootstrap-->
+        <nav class="navbar navbar-expand-lg bg-body-emphasis navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/logo/pngwing.com.png"
+                        alt="logo organica" width="100" height="100" class="d-inline-block align-text-center">
+                    OrganiK</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" aria-current="page" href="../index.html">Bolsones</a>
+                        </li>
+                        <li class="nav-item  mx-3">
+                            <a class="nav-link active" aria-current="page" href="../pages/donde_estamos.html">¿Dónde
+                                estamos?</a>
+                        </li>
+                        <li class="nav-item  mx-3">
+                            <a class="nav-link" href="../pages/por_que_organik.html">¿Por qué OrgániK?</a>
+                        </li>
+                        <li class="nav-item  mx-3">
+                            <a class="nav-link" href="../pages/preguntas_frecuentes.html">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item  mx-3">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-outline-success  mx-3" type="button"><a class="nav-link"
+                        href="../pages/hacer_pedido.html">Hacer pedido</a></button>
+
+
+                </div>
             </div>
-
-            <div class="contenedorFrase">
-                <ul>
-                    <a class="contenedorFrase texto300 frase" href="../index.html">
-                        <li>UNA VIDA</li>
-                        <li>LIBRE DE AGROTÓXICOS</li>
-                    </a>
-                </ul>
-            </div>
-        </div>
-
-        <nav>
-            <ul class="navegacion">
-                <li><a href="../pages/donde_estamos.html">¿Dónde estamos?</a></li>
-                <li><a href="../pages/por_que_organik.html">¿Por qué OrgániK?</a></li>
-                <li><a href="../pages/preguntas_frecuentes.html">Preguntas Frecuentes</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
         </nav>
-
-       
-            <div class="botonHacerPedido">
-
-                <a href="../pages/hacer_pedido.html">Hacer pedido</a>
-            </div>
+        
 
     </header>
 
@@ -80,62 +91,60 @@
 
     </main>
 
-    <footer>
-        
-        <div class="footerSuperior texto300 " >
-            <div class="contenedorLogoFraseFooter">
-                <div class="contenedorLogoFooter">
+    <footer class="footerBootstrap container-fluid" style="width: 100%;">
+        <div class="row m-5">
+            <div class="col-sm-12 col-md-4 mx-auto" style="width: 200px;">
+                <div class="logoFooterBootstrap mx-auto">
                     <a class="logo" href="../index.html">
-                        <img src="../assets/logo/pngwing.com.png" alt="logo organica">
+                        <img src="../assets/logo/pngwing.com.png" alt="logo organik">
                     </a>
                 </div>
-
-                <div class="contenedorFraseFooter">
-                    <ul class="fraseFooter">
-                        <li>La alternativa sana, justa y</li>
-                        <li> ecológica en productos de huerta.</li>
-                    </ul>
+            </div>
+            <div class="col-sm-12 col-md-4 mx-auto" style="width: 400px;">
+                <div>
+                    <h5 class="fraseFooterBootstrap texto300 pt-5">
+                        La alternativa sana, justa y ecológica en productos de huerta.
+                    </h5>
                 </div>
             </div>
-
-            <div class="espacioFooter">
-
+            <div class="col-sm-12 col-md-4 mx-auto" style="width: 200px;">
+                <div class="redesSocialesBootstrap mx-auto pt-3">
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-whatsapp fa-3x"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-instagram fa-3x"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-facebook fa-3x"></i></a>
+                </div>
             </div>
-
-            <div class="redesSociales">
-                
-                <a href="https://web.whatsapp.com/"target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-3x"></i></a>
-                <a href="https://www.instagram.com/"target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram fa-3x"></i></a>
-                <a href="https://www.facebook.com/"target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook fa-3x"></i></a>
-            </div>
-
         </div>
-        
-
-        <div class="footerInferior">
-
-            
-                
-                <h3 class="footerTitle texto300">¿Querés suscribirte a nuestro newsletter?</h3>
-
-        
-                <div class="formFooterInput texto300">
-                    <form>
-                    <label for="email">Ingresa tu @e-mail:</label>	
-                    <input type="text" name="email" />
+        <div class="row footerInferiorBootstrap">
+            <div class="col-sm-12 col-md-4 mx-auto">
+                <div class="footerTitleBootstrap mx-auto">
+                    <h3 class="texto300">
+                        ¿Querés suscribirte a nuestro newsletter?
+                    </h3>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 mx-auto" style="width: 200px;">
+                <div>
+                    <form class="formFooterInputBootstrap mx-auto">
+                        <label for="email">Ingresa tu @e-mail:</label>
+                        <input type="text" name="email" />
                     </form>
                 </div>
-
-                    <div class="footerButtom">
-                        <a href="">Enviar</a>
-                    </div>
-
-        </div>
-
-        
-
-
+            </div>
+            <div class="col-sm-6 col-md-4 mx-auto pt-2" style="width: 200px;">
+                <div class="footerButtom a mx-auto">
+                    <a href="">Enviar</a>
+                </div>
+            </div>
+        </div>  
     </footer>
+    <!--cdn bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
     
 </body>
 

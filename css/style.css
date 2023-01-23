@@ -219,7 +219,7 @@ nav{
         text-align: start;
 }
 
-.footerBoostrap{
+.footerBootstrap{
 
     
     background-color: rgb(4, 77, 34);
@@ -257,13 +257,13 @@ footer{
     width: 60%;
 }
 
-.logoFooterBoostrap{
+.logoFooterBootstrap{
     width: 100px;
     justify-content: end;
     align-items: flex-end;
 }
 
-.logoBoostrap{
+.logoBootstrap{
     width: 100px;
 }
 
@@ -288,7 +288,7 @@ footer{
 
 }
 
-.fraseFooterBoostrap{
+.fraseFooterBootstrap{
     color: rgb(218, 248, 201);
     list-style-type: none;
     text-decoration: none;
@@ -316,7 +316,7 @@ footer{
     
 }
 
-.redesSocialesBoostrap a{
+.redesSocialesBootstrap a{
     text-decoration: none;
     color: rgb(218, 248, 201);
     padding: 5px;
@@ -340,7 +340,7 @@ footer{
 
 }
 
-.footerInferiorBoostrap{
+.footerInferiorBootstrap{
 
     padding-left: 5%;
     padding-top: 2%;
@@ -362,7 +362,7 @@ footer{
     width: 40%;
     text-align: center;
 }
-.footerTitleBoostrap{
+.footerTitleBootstrap{
     color: rgb(218, 248, 201);  
 }
 
@@ -375,7 +375,7 @@ footer{
 
 }
 
-.formFooterInputBoostrap{
+.formFooterInputBootstrap{
     color: rgb(218, 248, 201);  
     font-size: 0.8rem;
 
