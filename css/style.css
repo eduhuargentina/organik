@@ -26,10 +26,9 @@
 }
 
 header{
-    display: flex;
+    width: 100%;
     background-color: rgb(4, 77, 34);
-    padding: 10px;
-    position: fixed;
+
 }
 
 .contenedorLogoFrase{
@@ -224,6 +223,7 @@ nav{
 
     
     background-color: rgb(4, 77, 34);
+    width: 100%;
 
 }
 footer{
@@ -255,6 +255,16 @@ footer{
 
 .logoFooter{
     width: 60%;
+}
+
+.logoFooterBoostrap{
+    width: 100px;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.logoBoostrap{
+    width: 100px;
 }
 
 .logoFooter img{
@@ -721,4 +731,7 @@ footer{
 }
 .avisoHacerPedido h1{
     padding-top: 80px;
+}
+.navbar{
+    background-color: rgb(4, 77, 34);
 }
