@@ -397,22 +397,18 @@ footer{
     padding: 3px;
 }
 
-.portadaGaleria{
-    display: flex;
-    flex-direction: column;
-
-}
-.dondeEstamos{
-
+.portadaBgdondeEstamos{
     background-image: url(../assets/img/cultivo-maiz.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center 50%;
+    background-size: 80vh;
     text-align: center;
     padding: 200px;
     border-style: solid;
     border-color: rgb(4, 77, 34);
-    color: rgb(1, 27, 12);
+    background-size: cover;
 }
+
 
 .dondeEstamosMenu{
     display: flex;
@@ -421,7 +417,7 @@ footer{
 }
 
 .nuestrosProductores{
-    width: 50%;
+    
     background-image: url(../assets/img/invernadero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -429,11 +425,12 @@ footer{
     padding: 100px;
     border-style: solid;
     border-color: rgb(4, 77, 34);
-    color: rgb(1, 27, 12);
+    color: rgb(218, 248, 201);
+    border-radius: 1%;
 }
 
 .nuestroPuntoDeEntrega{
-    width: 50%;
+    
     background-image: url(../assets/img/nena\ y\ verduras.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -441,7 +438,8 @@ footer{
     padding: 100px;
     border-style: solid;
     border-color: rgb(4, 77, 34);
-    color: rgb(1, 27, 12);
+    color: rgb(218, 248, 201);
+    border-radius: 1%;
 }
 
 .mapa{
@@ -456,14 +454,12 @@ footer{
 }
 .galeria{
     background-color:  rgb(4, 77, 34);
-    display: flex;
-    flex-wrap: wrap;
+    padding: 2px;
     justify-content: center;
 }
 
 .galeria img{
-    width: 30%;
-    padding: 2px;
+    width: 100%;
     opacity: 0.8;
 }
 
@@ -691,32 +687,40 @@ footer{
 }
 
 
-.portadaPreguntasFrecuentes{
+.portada{
     display: flex;
     flex-direction: column;
-    height: 102vh;
+    height: 55%;
 
 }
 
-.bgPreguntasFrecuentes{
+.bgPagina{
     display: flex;
     flex-direction: column;
     background-color: rgb(4, 77, 34);
     
 }
-.preguntasFrecuentes{
-
+.portadaBgPreguntas{
     background-image: url(../assets/img/nena\ y\ verduras.jpg);
     background-repeat: no-repeat;
     background-position: center 50%;
-    background-size: 100vh;
-    margin-top: 15vh;
+    background-size: 80vh;
     text-align: center;
     padding: 200px;
     border-style: solid;
     border-color: rgb(4, 77, 34);
+    background-size: cover;
+}
+.textoPortada{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
     color: rgb(218, 248, 201);
 }
+
 .preguntasFrecuentes h3{
     padding: 20px;
 }
@@ -731,6 +735,7 @@ footer{
     padding: 100px;
     border-style: solid;
     border-color: rgb(4, 77, 34);
+    border-radius: 2%;
     color: rgb(1, 27, 12);
 }
 
@@ -757,4 +762,9 @@ input{
 input:focus{
     width: 200px;
     font-size: 30px;
+}
+
+.topHeight{
+    height: 11vh;
+    background-color: rgb(4, 77, 34);;
 }
