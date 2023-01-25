@@ -401,7 +401,7 @@ footer{
     background-image: url(../assets/img/cultivo-maiz.jpg);
     background-repeat: no-repeat;
     background-position: center 50%;
-    background-size: 80vh;
+    height: 85vh;
     text-align: center;
     padding: 200px;
     border-style: solid;
@@ -426,6 +426,7 @@ footer{
     border-style: solid;
     border-color: rgb(4, 77, 34);
     color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
     border-radius: 1%;
 }
 
@@ -439,6 +440,7 @@ footer{
     border-style: solid;
     border-color: rgb(4, 77, 34);
     color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
     border-radius: 1%;
 }
 
@@ -704,21 +706,24 @@ footer{
     background-image: url(../assets/img/nena\ y\ verduras.jpg);
     background-repeat: no-repeat;
     background-position: center 50%;
-    background-size: 80vh;
+    height: 85vh;
     text-align: center;
     padding: 200px;
     border-style: solid;
     border-color: rgb(4, 77, 34);
     background-size: cover;
+    text-shadow: 1px 1px 6px black;
 }
 .textoPortada{
-    width: 98%;
-    margin: auto;
     display: flex;
     flex-direction: column;
+    width: 98%;
+    margin: auto;
+    justify-content: center;
     text-align: center;
     padding: 100px;
     color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
 }
 
 .preguntasFrecuentes h3{
@@ -732,7 +737,7 @@ footer{
     flex-direction: column;
     background-image: url(../assets/img/pattern.jpg);
     text-align: center;
-    padding: 100px;
+    padding: 50px;
     border-style: solid;
     border-color: rgb(4, 77, 34);
     border-radius: 2%;
