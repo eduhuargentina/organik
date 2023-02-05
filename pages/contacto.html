@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="fixed-top">
         <!--navbar bootstrap-->
         <nav class="navbar navbar-expand-lg bg-body-emphasis navbar-dark">
             <div class="container-fluid">
@@ -61,6 +61,8 @@
     </header>
 
     <main>
+        <div class="bgPagina">
+        <div class="espacioNavPortada"></div>
         <div class="portadaContacto">
             <div class="texto700 contacto">
                 <h1>Contactanos</h1>
@@ -78,7 +80,8 @@
 
             <div class="texto500 datosContacto">
                 <div class="datosContactoLeft">
-                    <div>
+                    <div class="form
+                    ">
                         <h2>Mandanos un mensaje.</h2>
                         <h3>Te responderemos a la brevedad.</h3>
                         <div class="wapp">
@@ -91,53 +94,50 @@
 
                         <div class="mail">
                             <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"
-                                rel="noopener noreferrer"><i class="fa-regular fa-envelope fa-3x"></i>></a>
+                                rel="noopener noreferrer"><i class="fa-regular fa-envelope fa-3x"></i></a>
                             <h2>organik@gmail.com</h2>
                         </div>
                     </div>
                 </div>
                 <div class="datosContactoRight">
-                    <form>
-                        <fieldset>
-                            <legend>Datos de contacto:</legend>
+                    <form class="form">
+                        <div  class="formTitle">
+                            <legend>
+                                <h2>Datos de contacto:</h2>
+                            </legend>
+                        </div>
+                        <fieldset class="fieldset">
+                            <form action=""></form>
 
-                            <div>
-                                <form>
-                                    <label for="nombre">Nombre:</label>
-                                    <input type="text" name="nombre" />
-                                </form>
-                            </div>
+                            <form class="inputText">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" name="nombre" />
+                            </form>
 
-                            <div>
-                                <form>
-                                    <label for="apellido">Apellido:</label>
-                                    <input type="text" name="apellido" />
-                                </form>
-                            </div>
+                            <form class="inputText">
+                                <label for="apellido">Apellido:</label>
+                                <input type="text" name="apellido" />
+                            </form>
 
-                            <div>
-                                <form>
-                                    <label for="e-mail">e-mail:</label>
-                                    <input type="email" name="email" />
-                                </form>
-                            </div>
-                            <div>
-                                <form>
-                                    <label for="consulta">Dejanos tu consulta:</label>
-                                    <input type="text" name="consulta" />
-                                </form>
-                            </div>
-                            <div></div>
-                            <div>
-                                <form>
-                                    <input type="submit" value="Enviar" />
-                                </form>
-                            </div>
+                            <form class="inputText">
+                                <label for="e-mail">e-mail:</label>
+                                <input type="email" name="email" />
+                            </form>
+
+                            <form class="inputText">
+                                <label for="consulta">Dejanos tu consulta:</label>
+                                <input type="text" name="consulta" />
+                            </form>
+
+                            <form class="inputText btnAlign">
+                                <input type="submit" value="Enviar" class="btnEnviar" />
+                            </form>
                         </fieldset>
                     </form>
                 </div>
             </div>
         </div>
+    </div>
     </main>
 
     <footer class="footerBootstrap container-fluid" style="width: 100%">
