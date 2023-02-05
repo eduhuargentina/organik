@@ -111,10 +111,16 @@ nav{
     padding: 3px;
 }
 
+.mainSection{    
+    display: flex;
+    flex-direction: column;
+
+}
+
 .mainIndex{
     display: flex;
     flex-direction: row;
-    background-image: url(../assets/img/campo.jpg);
+    background-image: url(../assets/img/brotesCrecen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3%;
@@ -139,11 +145,16 @@ nav{
     margin-top: 50px;
 }
 
+
+
 .proximosEnvios{
     font-family: 'Alexandria', sans-serif;
     text-decoration: none;
     border-radius: 10px;
-    color: rgb(1, 27, 12);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(4, 77, 34);
+    color: rgb(4, 77, 34);
     background-color: rgb(232, 255, 235);
     padding: 50px;
     justify-content: center;
@@ -178,14 +189,17 @@ nav{
     font-family: 'Alexandria', sans-serif;
     text-decoration: none;
     border-radius: 10px;
-    color: rgb(1, 27, 12);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(4, 77, 34);
+    color: rgb(4, 77, 34);
     background-color: rgb(232, 255, 235);
-    padding: 30px;
-    justify-content: start;
-    margin-bottom: 20px;
-    margin-left: 5px;
-    width: 230px;
-    height: 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    height: 340px;
     text-align: start;
 }
 
@@ -208,14 +222,14 @@ nav{
         font-family: 'Alexandria', sans-serif;
         text-decoration: none;
         border-radius: 10px;
-        color: rgb(1, 27, 12);
+        color: rgb(4, 77, 34);
         background-color: rgb(232, 255, 235);
-        padding: 30px;
+        padding: 25px;
         justify-content: start;
         margin-bottom: 20px;
         margin-left: 5px;
         width: 25%;
-        height: 50%;
+        height: 25vh;
         text-align: start;
 }
 
@@ -474,8 +488,10 @@ footer{
     flex-direction: column;
     background-image: url(../assets/img/pattern.jpg);
     color:  rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
 }
 
 .explicacionUno{
@@ -585,21 +601,27 @@ footer{
 }
 .contacto{
 
-    background-image: url(../assets/img/riego.jpg);
+    background-image: url(../assets/img/tomates.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center 50%;
+    height: 100vh;
     text-align: center;
-    padding: 150px;
+    padding: 200px;
     border-style: solid;
     border-color: rgb(4, 77, 34);
-    color: rgb(1, 27, 12);
+    background-size: cover;
+    color:  rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
+    align-items: center;
+    justify-content: center;
 }
 .contacto h1{
-    padding-top: 80px;
+    padding-top: 20vh;
 }
 .contacto h3{
     padding: 20px;
 }
+
 
 .infoContacto{
     display: flex;
@@ -610,6 +632,7 @@ footer{
     border-style: solid;
     border-color: rgb(4, 77, 34);
     color: rgb(1, 27, 12);
+    text-shadow: 1px 1px 6px rgb(218, 248, 201);
 }
 
 .datosContacto{
@@ -629,9 +652,11 @@ footer{
     align-items: center;
     border-style: solid;
     border-color: rgb(4, 77, 34);
-    padding-left: 15%;
+    padding: 5%;
+    padding-left: 12%;
     width: 50%;
     color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
 }
 
 .datosContactoRight{
@@ -646,7 +671,71 @@ footer{
     border-color: rgb(4, 77, 34);
     width: 50%;
     color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
+    padding: 5%;
+    padding-left: 9%;
 
+}
+
+.form{
+    max-width: 500px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+
+.formTitle{
+    text-transform: uppercase;
+    font-size: 2rem ;
+    margin-bottom: 5px;
+    width: 100%;
+    text-shadow: 1px 1px 6px black
+}
+
+.fieldset {
+    width: 100%;
+}
+
+.fieldset .inputText{
+
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.fieldset .inputText label{
+    width: 300px;
+    margin-right: 10%;
+    text-shadow: 1px 1px 6px black
+}
+
+.fieldset .inputText input{
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(4, 77, 34);
+}
+
+.btnEnviar{
+    width: 100%;
+    background: rgb(218, 248, 201);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(4, 77, 34);
+    border-radius: 3px;
+    color: rgb(4, 77, 34);
+    text-shadow: 1px 1px 6px rgb(218, 248, 201);
+    margin: auto auto;
+    cursor: pointer;
+    
+    
+    
+}
+
+.btnEnviar:hover{
+   background-color: rgb(4, 77, 34);
+   color: rgb(218, 248, 201);
+   text-shadow: 1px 1px 6px black 
 }
 
 .wapp{
@@ -742,14 +831,21 @@ footer{
     border-color: rgb(4, 77, 34);
     border-radius: 2%;
     color: rgb(1, 27, 12);
+    text-shadow: 1px 1px 6px rgb(218, 248, 201);
 }
 
 .avisoHacerPedido{
-    text-align: center;
-    padding: 80px;
+
     background-image: url(../assets/img/nena\ y\ verduras.jpg);
     background-repeat: no-repeat;
+    background-position: center 50%;
+    height: 85vh;
+    text-align: center;
+    padding: 200px;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
     background-size: cover;
+    text-shadow: 1px 1px 6px rgb(218, 248, 201);
 }
 .avisoHacerPedido h1{
     padding-top: 80px;

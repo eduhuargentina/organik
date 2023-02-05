@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="fixed-top">
         <!--navbar bootstrap-->
         <nav class="navbar navbar-expand-lg bg-body-emphasis navbar-dark">
             <div class="container-fluid">
@@ -97,42 +97,36 @@
                     </div>
                 </div>
                 <div class="datosContactoRight">
-                    <form>
-                        <fieldset>
+                    <form class="form">
+                        <div  class="formTitle">
                             <legend>Datos de contacto:</legend>
+                        </div>
+                        <fieldset class="fieldset">
+                            <form action=""></form>
 
-                            <div>
-                                <form>
-                                    <label for="nombre">Nombre:</label>
-                                    <input type="text" name="nombre" />
-                                </form>
-                            </div>
+                            <form class="inputText">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" name="nombre" />
+                            </form>
 
-                            <div>
-                                <form>
-                                    <label for="apellido">Apellido:</label>
-                                    <input type="text" name="apellido" />
-                                </form>
-                            </div>
+                            <form class="inputText">
+                                <label for="apellido">Apellido:</label>
+                                <input type="text" name="apellido" />
+                            </form>
 
-                            <div>
-                                <form>
-                                    <label for="e-mail">e-mail:</label>
-                                    <input type="email" name="email" />
-                                </form>
-                            </div>
-                            <div>
-                                <form>
-                                    <label for="consulta">Dejanos tu consulta:</label>
-                                    <input type="text" name="consulta" />
-                                </form>
-                            </div>
-                            <div></div>
-                            <div>
-                                <form>
-                                    <input type="submit" value="Enviar" />
-                                </form>
-                            </div>
+                            <form class="inputText">
+                                <label for="e-mail">e-mail:</label>
+                                <input type="email" name="email" />
+                            </form>
+
+                            <form class="inputText">
+                                <label for="consulta">Dejanos tu consulta:</label>
+                                <input type="text" name="consulta" />
+                            </form>
+
+                            <form class="inputText">
+                                <input type="submit" value="Enviar" class="btnEnviar" />
+                            </form>
                         </fieldset>
                     </form>
                 </div>
