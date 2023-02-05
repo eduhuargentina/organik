@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;700;900&family=Fjalla+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;700;900&family=Fjalla+One&display=swap");
+@import "../scss/normalize/_reset.scss";
+@import "../scss/components/header";
 
 .textoBlanco1 {
     text-decoration: none;
@@ -7,118 +9,23 @@
 }
 
 .texto300 {
-    font-family: 'Alexandria', sans-serif;
+    font-family: "Alexandria", sans-serif;
     font-weight: 300;
 }
 
 .texto500 {
-    font-family: 'Alexandria', sans-serif;
+    font-family: "Alexandria", sans-serif;
     font-weight: 500;
 }
 
 .texto700 {
-    font-family: 'Alexandria', sans-serif;
+    font-family: "Alexandria", sans-serif;
     font-weight: 700;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-    width: 100%;
-    background-color: rgb(4, 77, 34);
-
-}
-
-.contenedorLogoFrase {
-    display: flex;
-    width: 25%;
-}
-
-.contenedorLogo {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    width: 30%;
-}
-
-.logo {
-    width: 60%;
-}
-
-.logo img {
-    width: 100%;
-}
-
-.contenedorFrase {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    width: 70%;
-    color: rgb(218, 248, 201);
-
-}
-
-.frase {
-    list-style-type: none;
-    text-decoration: none;
-    padding-left: 10px;
-    font-size: 0.8rem;
-
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-
-}
-
-.navegacion {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.navegacion li a {
-    text-decoration: none;
-    color: rgb(218, 248, 201);
-    font-size: 1rem;
-    font-family: 'Alexandria', sans-serif;
-    font-weight: 500;
-}
-
-
-.botonHacerPedido {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
-}
-
-.botonHacerPedido a {
-
-
-    font-family: 'Alexandria', sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    border-radius: 10px;
-    color: rgb(4, 77, 34);
-    background-color: rgb(218, 248, 201);
-    padding: 3px;
 }
 
 .mainSection {
     display: flex;
     flex-direction: column;
-
 }
 
 .mainIndex {
@@ -128,13 +35,12 @@ nav {
     background-repeat: no-repeat;
     height: 85vh;
     background-size: cover;
-    background-position: 0px ;
+    background-position: 0px;
     padding: 3%;
     padding-top: 50px;
     border-style: solid;
     border-width: 3px;
-    border-color: rgb(4, 77, 34)
-
+    border-color: rgb(4, 77, 34);
 }
 
 .mainLeft {
@@ -153,10 +59,8 @@ nav {
     align-items: center;
 }
 
-
-
 .proximosEnvios {
-    font-family: 'Alexandria', sans-serif;
+    font-family: "Alexandria", sans-serif;
     text-decoration: none;
     border-radius: 10px;
     border-style: solid;
@@ -179,9 +83,7 @@ nav {
 }
 
 .botonHacerPedidoMain a {
-
-
-    font-family: 'Alexandria', sans-serif;
+    font-family: "Alexandria", sans-serif;
     font-weight: 700;
     text-decoration: none;
     border-radius: 10px;
@@ -194,7 +96,7 @@ nav {
 }
 
 .bolsones {
-    font-family: 'Alexandria', sans-serif;
+    font-family: "Alexandria", sans-serif;
     text-decoration: none;
     border-radius: 10px;
     border-style: solid;
@@ -223,12 +125,11 @@ nav {
     border-style: solid;
     border-color: rgb(4, 77, 34);
     justify-content: space-evenly;
-
 }
 
 .infoSection {
     display: flex;
-    font-family: 'Alexandria', sans-serif;
+    font-family: "Alexandria", sans-serif;
     text-decoration: none;
     border-radius: 10px;
     color: rgb(4, 77, 34);
@@ -243,26 +144,20 @@ nav {
 }
 
 .footerBootstrap {
-
-
     background-color: rgb(4, 77, 34);
     width: 100%;
-
 }
 
 footer {
-
     display: flex;
     flex-direction: column;
 
     background-color: rgb(4, 77, 34);
-
 }
 
 .footerSuperior {
     display: flex;
     padding-top: 2%;
-
 }
 
 .contenedorLogoFraseFooter {
@@ -303,14 +198,12 @@ footer {
     align-items: left;
     width: 70%;
     color: rgb(218, 248, 201);
-
 }
 
 .fraseFooter {
     list-style-type: none;
     text-decoration: none;
     font-size: 0.8rem;
-
 }
 
 .fraseFooterBootstrap {
@@ -318,7 +211,6 @@ footer {
     list-style-type: none;
     text-decoration: none;
     font-size: 0.8rem;
-
 }
 
 .espacioFooter {
@@ -338,14 +230,12 @@ footer {
     color: rgb(218, 248, 201);
     display: flex;
     padding: 5px;
-
 }
 
 .redesSocialesBootstrap a {
     text-decoration: none;
     color: rgb(218, 248, 201);
     padding: 5px;
-
 }
 
 .footerInferior {
@@ -361,12 +251,9 @@ footer {
     margin-left: 10%;
     margin-top: 3%;
     margin-bottom: 3%;
-
-
 }
 
 .footerInferiorBootstrap {
-
     padding-left: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -377,8 +264,6 @@ footer {
     margin-left: 10%;
     margin-top: 3%;
     margin-bottom: 3%;
-
-
 }
 
 .footerTitle {
@@ -398,13 +283,11 @@ footer {
     width: 40%;
     justify-content: end;
     font-size: 0.8rem;
-
 }
 
 .formFooterInputBootstrap {
     color: rgb(218, 248, 201);
     font-size: 0.8rem;
-
 }
 
 .footerButtom {
@@ -414,7 +297,7 @@ footer {
 }
 
 .footerButtom a {
-    font-family: 'Alexandria', sans-serif;
+    font-family: "Alexandria", sans-serif;
     font-weight: 500;
     text-decoration: none;
     border-radius: 10px;
@@ -436,15 +319,12 @@ footer {
     background-size: cover;
 }
 
-
 .dondeEstamosMenu {
     display: flex;
     flex-direction: row;
-
 }
 
 .nuestrosProductores {
-
     background-image: url(../assets/img/invernadero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -459,7 +339,6 @@ footer {
 }
 
 .nuestroPuntoDeEntrega {
-
     background-image: url(../assets/img/nena\ y\ verduras.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -479,10 +358,9 @@ footer {
     justify-content: center;
     width: 100%;
     border-style: solid;
-    border-width:3px;
+    border-width: 3px;
     border-color: rgb(4, 77, 34);
     color: rgb(1, 27, 12);
-
 }
 
 .galeria {
@@ -490,15 +368,14 @@ footer {
     padding: 2px;
     justify-content: center;
     padding: 1px;
-
 }
 
-.galeria img{
+.galeria img {
     width: 100%;
     opacity: 0.7;
     border-style: solid;
     border-width: 3px;
-    border-color: rgb(4, 77, 34)
+    border-color: rgb(4, 77, 34);
 }
 
 .galeria img:hover {
@@ -515,7 +392,8 @@ footer {
     align-items: center;
     padding-top: 30px;
 }
-.portadaPorQue{
+
+.portadaPorQue {
     background-image: url(../assets/img/variedades2.jpg);
     background-repeat: no-repeat;
     background-position: center 50%;
@@ -533,7 +411,7 @@ footer {
     background-size: cover;
     width: 80%;
     height: 30%;
-    text-align: center;  
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
     border-color: rgb(4, 77, 34);
@@ -541,7 +419,6 @@ footer {
 }
 
 .explicacionUno h3 {
-
     padding: 20px;
 }
 
@@ -569,7 +446,6 @@ footer {
 }
 
 .explicacionDos h3 {
-
     padding: 20px;
 }
 
@@ -581,7 +457,6 @@ footer {
     padding-inline: 20px;
     padding-bottom: 20px;
     width: 100%;
-    
 }
 
 .explicacionTres {
@@ -598,7 +473,6 @@ footer {
 }
 
 .explicacionTres h3 {
-
     padding: 20px;
 }
 
@@ -626,7 +500,6 @@ footer {
 }
 
 .explicacionCuatro h3 {
-
     padding: 20px;
 }
 
@@ -638,37 +511,32 @@ footer {
     padding-bottom: 20px;
 }
 
-.espacioNavPortada{
+.espacioNavPortada {
     height: 126px;
 }
 
 .portadaContacto {
     display: flex;
     flex-direction: column;
-
 }
 
 .contacto {
-
     background-image: url(../assets/img/tomates.jpg);
     background-repeat: no-repeat;
     background-position: center 50%;
     height: 85vh;
-    text-align: center;    
+    text-align: center;
     border-style: solid;
     border-color: rgb(4, 77, 34);
     background-size: cover;
     color: rgb(218, 248, 201);
     text-shadow: 1px 1px 6px black;
     padding-block: 30vh;
-
 }
-
 
 .contacto h3 {
     padding: 20px;
 }
-
 
 .infoContacto {
     display: flex;
@@ -683,23 +551,21 @@ footer {
     text-shadow: 1px 1px 6px rgb(218, 248, 201);
 }
 
-.infoContacto h2{
+.infoContacto h2 {
     text-align: center;
 }
 
 .datosContacto {
     display: flex;
     flex-direction: row;
-
-
 }
 
-@media (max-width: 576px){
-    .datosContacto{
+@media (max-width: 576px) {
+    .datosContacto {
         flex-direction: column;
     }
 
-    .datosContacto div{
+    .datosContacto div {
         width: 100%;
     }
 
@@ -709,37 +575,36 @@ footer {
         align-items: center;
         width: 100%;
         height: auto;
-        }
+    }
 
-    .section{
+    .section {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
 
-    .infoSection{
+    .infoSection {
         width: 90%;
         margin: 5px;
     }
-    .mainLeft{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    .mainRight{
+
+    .mainLeft {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
 
-  
+    .mainRight {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 }
 
 .datosContactoLeft {
-
     display: flex;
     background-image: url(../assets/img/peras.jpg);
     background-repeat: no-repeat;
@@ -772,7 +637,6 @@ footer {
     text-shadow: 1px 1px 6px black;
     padding: 5%;
     padding-left: 9%;
-
 }
 
 .form {
@@ -781,22 +645,18 @@ footer {
     margin: 10px auto;
 }
 
-
 .formTitle {
     font-size: 2rem;
     margin-bottom: 5px;
     width: 100%;
-    text-shadow: 1px 1px 6px black
+    text-shadow: 1px 1px 6px black;
 }
-
-
 
 .fieldset {
     width: 100%;
 }
 
 .fieldset .inputText {
-
     display: flex;
     margin-bottom: 5px;
     font-size: 1.5rem;
@@ -805,7 +665,7 @@ footer {
 .fieldset .inputText label {
     width: 300px;
     margin-right: 10%;
-    text-shadow: 1px 1px 6px black
+    text-shadow: 1px 1px 6px black;
 }
 
 .fieldset .inputText input {
@@ -814,7 +674,6 @@ footer {
     border-width: 1px;
     border-color: rgb(4, 77, 34);
 }
-
 
 .btnEnviar {
     width: 100%;
@@ -828,14 +687,12 @@ footer {
     margin: auto auto;
     cursor: pointer;
     padding-bottom: 7%;
-
-
 }
 
 .btnEnviar:hover {
     background-color: rgb(4, 77, 34);
     color: rgb(218, 248, 201);
-    text-shadow: 1px 1px 6px black
+    text-shadow: 1px 1px 6px black;
 }
 
 .wapp {
@@ -855,7 +712,6 @@ footer {
     justify-content: center;
     align-items: center;
     padding-left: 5px;
-
 }
 
 .mail {
@@ -877,9 +733,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding-left: 5px;
-
 }
-
 
 .portada {
     display: flex;
@@ -890,7 +744,6 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: rgb(4, 77, 34);
-
 }
 
 .portadaBgPreguntas {
@@ -937,7 +790,6 @@ footer {
 }
 
 .avisoHacerPedido {
-
     background-image: url(../assets/img/nena\ y\ verduras.jpg);
     background-repeat: no-repeat;
     background-position: center 50%;
@@ -964,7 +816,6 @@ input {
     transition: all 1s;
 }
 
-
 input:focus {
     width: 200px;
     font-size: 30px;
@@ -973,5 +824,4 @@ input:focus {
 .topHeight {
     height: 11vh;
     background-color: rgb(4, 77, 34);
-    ;
 }
