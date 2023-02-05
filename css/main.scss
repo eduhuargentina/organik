@@ -1,27 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;700;900&family=Fjalla+One&display=swap");
 @import "../scss/normalize/_reset.scss";
+@import "../scss/normalize/text";
 @import "../scss/components/header";
-
-.textoBlanco1 {
-    text-decoration: none;
-    color: rgb(218, 248, 201);
-    font-size: 1rem;
-}
-
-.texto300 {
-    font-family: "Alexandria", sans-serif;
-    font-weight: 300;
-}
-
-.texto500 {
-    font-family: "Alexandria", sans-serif;
-    font-weight: 500;
-}
-
-.texto700 {
-    font-family: "Alexandria", sans-serif;
-    font-weight: 700;
-}
+@import "../scss/components/footer";
 
 .mainSection {
     display: flex;
@@ -143,168 +124,6 @@
     overflow: auto;
 }
 
-.footerBootstrap {
-    background-color: rgb(4, 77, 34);
-    width: 100%;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-
-    background-color: rgb(4, 77, 34);
-}
-
-.footerSuperior {
-    display: flex;
-    padding-top: 2%;
-}
-
-.contenedorLogoFraseFooter {
-    display: flex;
-    justify-content: end;
-    width: 60%;
-}
-
-.contenedorLogoFooter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-}
-
-.logoFooter {
-    width: 60%;
-}
-
-.logoFooterBootstrap {
-    width: 100px;
-    justify-content: end;
-    align-items: flex-end;
-}
-
-.logoBootstrap {
-    width: 100px;
-}
-
-.logoFooter img {
-    width: 100%;
-}
-
-.contenedorFraseFooter {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    width: 70%;
-    color: rgb(218, 248, 201);
-}
-
-.fraseFooter {
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 0.8rem;
-}
-
-.fraseFooterBootstrap {
-    color: rgb(218, 248, 201);
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 0.8rem;
-}
-
-.espacioFooter {
-    width: 10%;
-}
-
-.redesSociales {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 30%;
-}
-
-.redesSociales a {
-    text-decoration: none;
-    color: rgb(218, 248, 201);
-    display: flex;
-    padding: 5px;
-}
-
-.redesSocialesBootstrap a {
-    text-decoration: none;
-    color: rgb(218, 248, 201);
-    padding: 5px;
-}
-
-.footerInferior {
-    display: flex;
-    flex-direction: row;
-    padding-left: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 5%;
-    width: 80%;
-    height: 40%;
-    border: solid 1px rgb(218, 248, 201);
-    margin-left: 10%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.footerInferiorBootstrap {
-    padding-left: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 5%;
-    width: 80%;
-    height: 40%;
-    border: solid 1px rgb(218, 248, 201);
-    margin-left: 10%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.footerTitle {
-    color: rgb(218, 248, 201);
-    display: flex;
-    width: 40%;
-    text-align: center;
-}
-
-.footerTitleBootstrap {
-    color: rgb(218, 248, 201);
-}
-
-.formFooterInput {
-    color: rgb(218, 248, 201);
-    display: flex;
-    width: 40%;
-    justify-content: end;
-    font-size: 0.8rem;
-}
-
-.formFooterInputBootstrap {
-    color: rgb(218, 248, 201);
-    font-size: 0.8rem;
-}
-
-.footerButtom {
-    display: flex;
-    width: 20%;
-    justify-content: center;
-}
-
-.footerButtom a {
-    font-family: "Alexandria", sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    border-radius: 10px;
-    color: rgb(4, 77, 34);
-    background-color: rgb(218, 248, 201);
-    padding: 3px;
-}
 
 .portadaBgdondeEstamos {
     background-image: url(../assets/img/cultivo-maiz.jpg);
@@ -511,9 +330,7 @@ footer {
     padding-bottom: 20px;
 }
 
-.espacioNavPortada {
-    height: 126px;
-}
+
 
 .portadaContacto {
     display: flex;
@@ -654,26 +471,24 @@ footer {
 
 .fieldset {
     width: 100%;
+    .inputText {
+        display: flex;
+        margin-bottom: 5px;
+        font-size: 1.5rem;
+        label {
+            width: 300px;
+            margin-right: 10%;
+            text-shadow: 1px 1px 6px black;
+        }
+        input {
+            width: 80%;
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgb(4, 77, 34);
+        }
+    }
 }
 
-.fieldset .inputText {
-    display: flex;
-    margin-bottom: 5px;
-    font-size: 1.5rem;
-}
-
-.fieldset .inputText label {
-    width: 300px;
-    margin-right: 10%;
-    text-shadow: 1px 1px 6px black;
-}
-
-.fieldset .inputText input {
-    width: 80%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(4, 77, 34);
-}
 
 .btnEnviar {
     width: 100%;
@@ -701,18 +516,17 @@ footer {
     padding: 10px;
     justify-content: start;
     align-items: center;
+    a {
+        color: rgb(218, 248, 201);
+        justify-content: start;
+    }
+    h2 {
+        justify-content: center;
+        align-items: center;
+        padding-left: 5px;
+    }
 }
 
-.wapp a {
-    color: rgb(218, 248, 201);
-    justify-content: start;
-}
-
-.wapp h2 {
-    justify-content: center;
-    align-items: center;
-    padding-left: 5px;
-}
 
 .mail {
     display: flex;
@@ -721,19 +535,17 @@ footer {
     padding: 10px;
     justify-content: start;
     align-items: center;
-}
-
-.mail a {
-    color: rgb(218, 248, 201);
-    text-decoration: none;
-    justify-content: start;
-}
-
-.mail h2 {
-    justify-content: center;
-    align-items: center;
-    padding-left: 5px;
-}
+    a {
+        color: rgb(218, 248, 201);
+        text-decoration: none;
+        justify-content: start;
+    }
+    h2 {
+        justify-content: center;
+        align-items: center;
+        padding-left: 5px;
+    }
+} 
 
 .portada {
     display: flex;

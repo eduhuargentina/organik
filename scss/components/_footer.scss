@@ -1,0 +1,72 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(4, 77, 34);
+}
+.footerBootstrap {
+    background-color: rgb(4, 77, 34);
+    width: 100%;
+    .logoFooterBootstrap {
+        width: 100px;
+        justify-content: end;
+        align-items: flex-end;
+        .logo {
+            width: 60%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .fraseFooterBootstrap {
+        color: rgb(218, 248, 201);
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 0.8rem;
+    }
+    .redesSocialesBootstrap a {
+        text-decoration: none;
+        color: rgb(218, 248, 201);
+        padding: 5px;
+    }
+    .footerInferiorBootstrap {
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        width: 80%;
+        height: 40%;
+        border: solid 1px rgb(218, 248, 201);
+        margin-left: 10%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .footerTitleBootstrap {
+        color: rgb(218, 248, 201);
+    }
+    
+    .formFooterInputBootstrap {
+        color: rgb(218, 248, 201);
+        font-size: 0.8rem;
+    }
+    
+    .footerButtom {
+        display: flex;
+        width: 20%;
+        justify-content: center;
+        a {
+            font-family: "Alexandria", sans-serif;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 10px;
+            color: rgb(4, 77, 34);
+            background-color: rgb(218, 248, 201);
+            padding: 10px;
+        }
+    }
+    
+}
+
+
+
+
