@@ -1,66 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;700;900&family=Fjalla+One&display=swap');
 
-.textoBlanco1{
+.textoBlanco1 {
     text-decoration: none;
     color: rgb(218, 248, 201);
     font-size: 1rem;
 }
-.texto300{
+
+.texto300 {
     font-family: 'Alexandria', sans-serif;
     font-weight: 300;
 }
 
-.texto500{
+.texto500 {
     font-family: 'Alexandria', sans-serif;
     font-weight: 500;
 }
 
-.texto700{
+.texto700 {
     font-family: 'Alexandria', sans-serif;
     font-weight: 700;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     width: 100%;
     background-color: rgb(4, 77, 34);
 
 }
 
-.contenedorLogoFrase{
+.contenedorLogoFrase {
     display: flex;
     width: 25%;
 }
-.contenedorLogo{
+
+.contenedorLogo {
     display: flex;
     justify-content: right;
     align-items: center;
     width: 30%;
 }
 
-.logo{
+.logo {
     width: 60%;
 }
 
-.logo img{
+.logo img {
     width: 100%;
 }
 
-.contenedorFrase{
+.contenedorFrase {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left;
     width: 70%;
     color: rgb(218, 248, 201);
-    
+
 }
 
-.frase{
+.frase {
     list-style-type: none;
     text-decoration: none;
     padding-left: 10px;
@@ -68,13 +71,14 @@ header{
 
 }
 
-nav{
+nav {
     display: flex;
     justify-content: center;
     width: 50%;
-    
+
 }
-.navegacion{
+
+.navegacion {
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -83,7 +87,7 @@ nav{
     width: 100%;
 }
 
-.navegacion li a{
+.navegacion li a {
     text-decoration: none;
     color: rgb(218, 248, 201);
     font-size: 1rem;
@@ -92,14 +96,14 @@ nav{
 }
 
 
-.botonHacerPedido{
+.botonHacerPedido {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 25%;
 }
 
-.botonHacerPedido a{
+.botonHacerPedido a {
 
 
     font-family: 'Alexandria', sans-serif;
@@ -111,13 +115,13 @@ nav{
     padding: 3px;
 }
 
-.mainSection{    
+.mainSection {
     display: flex;
     flex-direction: column;
 
 }
 
-.mainIndex{
+.mainIndex {
     display: flex;
     flex-direction: row;
     background-image: url(../assets/img/brotesCrecen.jpg);
@@ -125,10 +129,10 @@ nav{
     background-size: cover;
     padding: 3%;
     padding-top: 100px;
-   
+
 }
 
-.mainLeft{
+.mainLeft {
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -136,7 +140,7 @@ nav{
     align-items: center;
 }
 
-.mainRight{
+.mainRight {
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -147,7 +151,7 @@ nav{
 
 
 
-.proximosEnvios{
+.proximosEnvios {
     font-family: 'Alexandria', sans-serif;
     text-decoration: none;
     border-radius: 10px;
@@ -163,14 +167,14 @@ nav{
     width: 90%;
 }
 
-.botonHacerPedidoMain{
+.botonHacerPedidoMain {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
 }
 
-.botonHacerPedidoMain a{
+.botonHacerPedidoMain a {
 
 
     font-family: 'Alexandria', sans-serif;
@@ -185,7 +189,7 @@ nav{
     padding: 10px;
 }
 
-.bolsones{
+.bolsones {
     font-family: 'Alexandria', sans-serif;
     text-decoration: none;
     border-radius: 10px;
@@ -203,7 +207,7 @@ nav{
     text-align: start;
 }
 
-.section{
+.section {
     display: flex;
     flex-direction: row;
     background-image: url(../assets/img/pattern.jpg);
@@ -217,92 +221,94 @@ nav{
 
 }
 
-.infoSection{
-    
-        font-family: 'Alexandria', sans-serif;
-        text-decoration: none;
-        border-radius: 10px;
-        color: rgb(4, 77, 34);
-        background-color: rgb(232, 255, 235);
-        padding: 25px;
-        justify-content: start;
-        margin-bottom: 20px;
-        margin-left: 5px;
-        width: 25%;
-        height: 25vh;
-        text-align: start;
+.infoSection {
+
+    font-family: 'Alexandria', sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(4, 77, 34);
+    background-color: rgb(232, 255, 235);
+    padding: 25px;
+    justify-content: start;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 25%;
+    height: 25vh;
+    text-align: start;
 }
 
-.footerBootstrap{
+.footerBootstrap {
 
-    
+
     background-color: rgb(4, 77, 34);
     width: 100%;
 
 }
-footer{
+
+footer {
 
     display: flex;
     flex-direction: column;
-    
+
     background-color: rgb(4, 77, 34);
 
 }
 
-.footerSuperior{
+.footerSuperior {
     display: flex;
     padding-top: 2%;
 
 }
-.contenedorLogoFraseFooter{
+
+.contenedorLogoFraseFooter {
     display: flex;
     justify-content: end;
     width: 60%;
 }
 
-.contenedorLogoFooter{
+.contenedorLogoFooter {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 20%;
 }
 
-.logoFooter{
+.logoFooter {
     width: 60%;
 }
 
-.logoFooterBootstrap{
+.logoFooterBootstrap {
     width: 100px;
     justify-content: end;
     align-items: flex-end;
 }
 
-.logoBootstrap{
+.logoBootstrap {
     width: 100px;
 }
 
-.logoFooter img{
+.logoFooter img {
     width: 100%;
 }
 
-.contenedorFraseFooter{
+.contenedorFraseFooter {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left;
     width: 70%;
     color: rgb(218, 248, 201);
-    
+
 }
 
-.fraseFooter{
+.fraseFooter {
     list-style-type: none;
     text-decoration: none;
     font-size: 0.8rem;
 
 }
 
-.fraseFooterBootstrap{
+.fraseFooterBootstrap {
     color: rgb(218, 248, 201);
     list-style-type: none;
     text-decoration: none;
@@ -310,11 +316,11 @@ footer{
 
 }
 
-.espacioFooter{
+.espacioFooter {
     width: 10%;
 }
 
-.redesSociales{
+.redesSociales {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -322,22 +328,22 @@ footer{
     width: 30%;
 }
 
-.redesSociales a{
+.redesSociales a {
     text-decoration: none;
     color: rgb(218, 248, 201);
     display: flex;
     padding: 5px;
-    
+
 }
 
-.redesSocialesBootstrap a{
+.redesSocialesBootstrap a {
     text-decoration: none;
     color: rgb(218, 248, 201);
     padding: 5px;
-    
+
 }
 
-.footerInferior{
+.footerInferior {
     display: flex;
     flex-direction: row;
     padding-left: 5%;
@@ -346,15 +352,15 @@ footer{
     padding-right: 5%;
     width: 80%;
     height: 40%;
-    border: solid 1px  rgb(218, 248, 201);
+    border: solid 1px rgb(218, 248, 201);
     margin-left: 10%;
     margin-top: 3%;
     margin-bottom: 3%;
-    
+
 
 }
 
-.footerInferiorBootstrap{
+.footerInferiorBootstrap {
 
     padding-left: 5%;
     padding-top: 2%;
@@ -362,26 +368,27 @@ footer{
     padding-right: 5%;
     width: 80%;
     height: 40%;
-    border: solid 1px  rgb(218, 248, 201);
+    border: solid 1px rgb(218, 248, 201);
     margin-left: 10%;
     margin-top: 3%;
     margin-bottom: 3%;
-    
+
 
 }
 
-.footerTitle{
-    color: rgb(218, 248, 201);  
+.footerTitle {
+    color: rgb(218, 248, 201);
     display: flex;
     width: 40%;
     text-align: center;
 }
-.footerTitleBootstrap{
-    color: rgb(218, 248, 201);  
+
+.footerTitleBootstrap {
+    color: rgb(218, 248, 201);
 }
 
-.formFooterInput{
-    color: rgb(218, 248, 201);  
+.formFooterInput {
+    color: rgb(218, 248, 201);
     display: flex;
     width: 40%;
     justify-content: end;
@@ -389,19 +396,19 @@ footer{
 
 }
 
-.formFooterInputBootstrap{
-    color: rgb(218, 248, 201);  
+.formFooterInputBootstrap {
+    color: rgb(218, 248, 201);
     font-size: 0.8rem;
 
 }
 
-.footerButtom{
+.footerButtom {
     display: flex;
     width: 20%;
     justify-content: center;
 }
 
-.footerButtom a{
+.footerButtom a {
     font-family: 'Alexandria', sans-serif;
     font-weight: 500;
     text-decoration: none;
@@ -411,7 +418,7 @@ footer{
     padding: 3px;
 }
 
-.portadaBgdondeEstamos{
+.portadaBgdondeEstamos {
     background-image: url(../assets/img/cultivo-maiz.jpg);
     background-repeat: no-repeat;
     background-position: center 50%;
@@ -424,14 +431,14 @@ footer{
 }
 
 
-.dondeEstamosMenu{
+.dondeEstamosMenu {
     display: flex;
     flex-direction: row;
 
 }
 
-.nuestrosProductores{
-    
+.nuestrosProductores {
+
     background-image: url(../assets/img/invernadero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -444,8 +451,8 @@ footer{
     border-radius: 1%;
 }
 
-.nuestroPuntoDeEntrega{
-    
+.nuestroPuntoDeEntrega {
+
     background-image: url(../assets/img/nena\ y\ verduras.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -458,7 +465,7 @@ footer{
     border-radius: 1%;
 }
 
-.mapa{
+.mapa {
     display: flex;
     background-image: url(../assets/img/pattern.jpg);
     justify-content: center;
@@ -468,33 +475,34 @@ footer{
     color: rgb(1, 27, 12);
 
 }
-.galeria{
-    background-color:  rgb(4, 77, 34);
+
+.galeria {
+    background-color: rgb(4, 77, 34);
     padding: 2px;
     justify-content: center;
 }
 
-.galeria img{
+.galeria img {
     width: 100%;
     opacity: 0.8;
 }
 
-.galeria img:hover{
+.galeria img:hover {
     opacity: 1;
 }
 
-.porQueOrganik{
+.porQueOrganik {
     display: flex;
     flex-direction: column;
     background-image: url(../assets/img/pattern.jpg);
-    color:  rgb(218, 248, 201);
+    color: rgb(218, 248, 201);
     text-shadow: 1px 1px 6px black;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
 }
 
-.explicacionUno{
+.explicacionUno {
     background-image: url(../assets/img/moras.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -502,24 +510,25 @@ footer{
     height: 30%;
     text-align: center;
     margin-top: 120px;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;
     border-color: rgb(4, 77, 34);
     border-style: solid;
 }
 
-.explicacionUno h3{
+.explicacionUno h3 {
 
     padding: 20px;
 }
-.explicacionUno h1{
+
+.explicacionUno h1 {
     padding-bottom: 20px;
 }
 
-.explicacionUno p{
+.explicacionUno p {
     padding-bottom: 20px;
 }
 
-.explicacionDos{
+.explicacionDos {
     background-image: url(../assets/img/riego.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -527,24 +536,25 @@ footer{
     height: 30%;
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;
     border-color: rgb(4, 77, 34);
     border-style: solid;
 }
 
-.explicacionDos h3{
+.explicacionDos h3 {
 
     padding: 20px;
 }
-.explicacionDos h1{
+
+.explicacionDos h1 {
     padding-bottom: 20px;
 }
 
-.explicacionDos p{
+.explicacionDos p {
     padding-bottom: 20px;
 }
 
-.explicacionTres{
+.explicacionTres {
     background-image: url(../assets/img/peras.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -552,24 +562,25 @@ footer{
     height: 30%;
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;
     border-color: rgb(4, 77, 34);
     border-style: solid;
 }
 
-.explicacionTres h3{
+.explicacionTres h3 {
 
     padding: 20px;
 }
-.explicacionTres h1{
+
+.explicacionTres h1 {
     padding-bottom: 20px;
 }
 
-.explicacionTres p{
+.explicacionTres p {
     padding-bottom: 20px;
 }
 
-.explicacionCuatro{
+.explicacionCuatro {
     background-image: url(../assets/img/campo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -577,29 +588,31 @@ footer{
     height: 30%;
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;
     border-color: rgb(4, 77, 34);
     border-style: solid;
 }
 
-.explicacionCuatro h3{
+.explicacionCuatro h3 {
 
     padding: 20px;
 }
-.explicacionCuatro h1{
+
+.explicacionCuatro h1 {
     padding-bottom: 20px;
 }
 
-.explicacionCuatro p{
+.explicacionCuatro p {
     padding-bottom: 20px;
 }
 
-.portadaContacto{
+.portadaContacto {
     display: flex;
     flex-direction: column;
 
 }
-.contacto{
+
+.contacto {
 
     background-image: url(../assets/img/tomates.jpg);
     background-repeat: no-repeat;
@@ -610,20 +623,22 @@ footer{
     border-style: solid;
     border-color: rgb(4, 77, 34);
     background-size: cover;
-    color:  rgb(218, 248, 201);
+    color: rgb(218, 248, 201);
     text-shadow: 1px 1px 6px black;
     align-items: center;
     justify-content: center;
 }
-.contacto h1{
+
+.contacto h1 {
     padding-top: 20vh;
 }
-.contacto h3{
+
+.contacto h3 {
     padding: 20px;
 }
 
 
-.infoContacto{
+.infoContacto {
     display: flex;
     flex-direction: column;
     background-image: url(../assets/img/pattern.jpg);
@@ -635,14 +650,14 @@ footer{
     text-shadow: 1px 1px 6px rgb(218, 248, 201);
 }
 
-.datosContacto{
+.datosContacto {
     display: flex;
     flex-direction: row;
 
-    
+
 }
 
-.datosContactoLeft{
+.datosContactoLeft {
 
     display: flex;
     background-image: url(../assets/img/peras.jpg);
@@ -659,7 +674,7 @@ footer{
     text-shadow: 1px 1px 6px black;
 }
 
-.datosContactoRight{
+.datosContactoRight {
     display: flex;
     flex-direction: column;
     background-image: url(../assets/img/moras.jpg);
@@ -677,16 +692,16 @@ footer{
 
 }
 
-.form{
+.form {
     max-width: 500px;
     width: 100%;
     margin: 10px auto;
 }
 
 
-.formTitle{
+.formTitle {
     text-transform: uppercase;
-    font-size: 2rem ;
+    font-size: 2rem;
     margin-bottom: 5px;
     width: 100%;
     text-shadow: 1px 1px 6px black
@@ -696,27 +711,28 @@ footer{
     width: 100%;
 }
 
-.fieldset .inputText{
+.fieldset .inputText {
 
     display: flex;
     margin-bottom: 5px;
     font-size: 1.5rem;
 }
 
-.fieldset .inputText label{
+.fieldset .inputText label {
     width: 300px;
     margin-right: 10%;
     text-shadow: 1px 1px 6px black
 }
 
-.fieldset .inputText input{
+.fieldset .inputText input {
     width: 80%;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(4, 77, 34);
 }
 
-.btnEnviar{
+
+.btnEnviar {
     width: 100%;
     background: rgb(218, 248, 201);
     border-style: solid;
@@ -727,35 +743,37 @@ footer{
     text-shadow: 1px 1px 6px rgb(218, 248, 201);
     margin: auto auto;
     cursor: pointer;
-    
-    
-    
+
+
 }
 
-.btnEnviar:hover{
-   background-color: rgb(4, 77, 34);
-   color: rgb(218, 248, 201);
-   text-shadow: 1px 1px 6px black 
+.btnEnviar:hover {
+    background-color: rgb(4, 77, 34);
+    color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black
 }
 
-.wapp{
+.wapp {
     display: flex;
     flex-direction: row;
     padding: 10px;
     justify-content: start;
     align-items: center;
 }
-.wapp a{
+
+.wapp a {
     color: rgb(218, 248, 201);
     justify-content: start;
 }
-.wapp h2{
+
+.wapp h2 {
     justify-content: center;
     align-items: center;
     padding-left: 5px;
 
 }
-.mail{
+
+.mail {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -764,13 +782,13 @@ footer{
     align-items: center;
 }
 
-.mail a{
+.mail a {
     color: rgb(218, 248, 201);
     text-decoration: none;
     justify-content: start;
 }
 
-.mail h2{
+.mail h2 {
     justify-content: center;
     align-items: center;
     padding-left: 5px;
@@ -778,20 +796,21 @@ footer{
 }
 
 
-.portada{
+.portada {
     display: flex;
     flex-direction: column;
     height: 55%;
 
 }
 
-.bgPagina{
+.bgPagina {
     display: flex;
     flex-direction: column;
     background-color: rgb(4, 77, 34);
-    
+
 }
-.portadaBgPreguntas{
+
+.portadaBgPreguntas {
     background-image: url(../assets/img/nena\ y\ verduras.jpg);
     background-repeat: no-repeat;
     background-position: center 50%;
@@ -803,7 +822,8 @@ footer{
     background-size: cover;
     text-shadow: 1px 1px 6px black;
 }
-.textoPortada{
+
+.textoPortada {
     display: flex;
     flex-direction: column;
     width: 98%;
@@ -815,11 +835,11 @@ footer{
     text-shadow: 1px 1px 6px black;
 }
 
-.preguntasFrecuentes h3{
+.preguntasFrecuentes h3 {
     padding: 20px;
 }
 
-.preguntas{
+.preguntas {
     width: 80%;
     margin: auto;
     display: flex;
@@ -834,7 +854,7 @@ footer{
     text-shadow: 1px 1px 6px rgb(218, 248, 201);
 }
 
-.avisoHacerPedido{
+.avisoHacerPedido {
 
     background-image: url(../assets/img/nena\ y\ verduras.jpg);
     background-repeat: no-repeat;
@@ -847,25 +867,29 @@ footer{
     background-size: cover;
     text-shadow: 1px 1px 6px rgb(218, 248, 201);
 }
-.avisoHacerPedido h1{
+
+.avisoHacerPedido h1 {
     padding-top: 80px;
 }
-.navbar{
+
+.navbar {
     background-color: rgb(4, 77, 34);
 }
 
-input{
-    width: 150px; height: 30px;
+input {
+    width: 150px;
+    height: 30px;
     transition: all 1s;
 }
 
 
-input:focus{
+input:focus {
     width: 200px;
     font-size: 30px;
 }
 
-.topHeight{
+.topHeight {
     height: 11vh;
-    background-color: rgb(4, 77, 34);;
+    background-color: rgb(4, 77, 34);
+    ;
 }
