@@ -606,6 +606,10 @@ footer {
     padding-bottom: 20px;
 }
 
+.espacioNavPortada{
+    height: 126px;
+}
+
 .portadaContacto {
     display: flex;
     flex-direction: column;
@@ -618,20 +622,16 @@ footer {
     background-repeat: no-repeat;
     background-position: center 50%;
     height: 100vh;
-    text-align: center;
-    padding: 200px;
+    text-align: center;    
     border-style: solid;
     border-color: rgb(4, 77, 34);
     background-size: cover;
     color: rgb(218, 248, 201);
     text-shadow: 1px 1px 6px black;
-    align-items: center;
-    justify-content: center;
+    padding-block: 30vh;
+
 }
 
-.contacto h1 {
-    padding-top: 20vh;
-}
 
 .contacto h3 {
     padding: 20px;
@@ -643,11 +643,16 @@ footer {
     flex-direction: column;
     background-image: url(../assets/img/pattern.jpg);
     text-align: center;
-    padding: 100px;
+    padding-block: 5%;
+    padding-inline: 10%;
     border-style: solid;
     border-color: rgb(4, 77, 34);
     color: rgb(1, 27, 12);
     text-shadow: 1px 1px 6px rgb(218, 248, 201);
+}
+
+.infoContacto h2{
+    text-align: center;
 }
 
 .datosContacto {
@@ -655,6 +660,16 @@ footer {
     flex-direction: row;
 
 
+}
+
+@media (max-width: 576px){
+    .datosContacto{
+        flex-direction: column;
+    }
+
+    .datosContacto div{
+        width: 100%;
+    }
 }
 
 .datosContactoLeft {
@@ -743,6 +758,7 @@ footer {
     text-shadow: 1px 1px 6px rgb(218, 248, 201);
     margin: auto auto;
     cursor: pointer;
+    padding-bottom: 7%;
 
 
 }
