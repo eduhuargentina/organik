@@ -1,11 +1,15 @@
 @media (max-width: 576px) {
     .datosContacto {
         flex-direction: column;
+        .datosContactoRight {
+            width: 100%;
+        }
+        .datosContactoLeft {
+            width: 100%;
+        }
     }
 
-    .datosContacto div {
-        width: 100%;
-    }
+    
 
     .mainIndex {
         flex-direction: column;
