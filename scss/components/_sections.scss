@@ -1,0 +1,159 @@
+.section {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../assets/img/pattern.jpg);
+    padding: 3%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top: 3px;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    justify-content: space-evenly;
+    .infoSection {
+        display: flex;
+        font-family: "Alexandria", sans-serif;
+        text-decoration: none;
+        border-radius: 10px;
+        color: rgb(4, 77, 34);
+        background-color: rgb(232, 255, 235);
+        padding: 25px;
+        justify-content: start;
+        margin-left: 5px;
+        width: 25%;
+        height: 25vh;
+        text-align: start;
+        overflow: auto;
+    }
+}
+
+
+.porQueOrganik {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/img/pattern.jpg);
+    color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+    .explicacionUno{
+        background-image: url(../assets/img/moras.jpg);
+    }
+    .explicacionDos {
+        background-image: url(../assets/img/riego.jpg);
+        }
+    .explicacionTres {
+        background-image: url(../assets/img/peras.jpg);
+    }
+    .explicacionCuatro {
+        background-image: url(../assets/img/campo.jpg);
+    }
+    div {
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80%;
+        height: 30%;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-color: rgb(4, 77, 34);
+        border-style: solid;
+        padding: 20px;
+        div{
+            h3 {
+                padding: 20px;
+            }
+            h1 {
+                padding-bottom: 20px;
+            }
+            p {
+                padding-inline: 20px;
+                padding-bottom: 20px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.dondeEstamos{
+    .nuestrosProductores {
+        background-image: url(../assets/img/invernadero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 100px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: rgb(4, 77, 34);
+        color: rgb(218, 248, 201);
+        text-shadow: 1px 1px 6px black;
+        border-radius: 1%;
+    }
+
+    .nuestroPuntoDeEntrega {
+        background-image: url(../assets/img/nena\ y\ verduras.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 100px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: rgb(4, 77, 34);
+        color: rgb(218, 248, 201);
+        text-shadow: 1px 1px 6px black;
+        border-radius: 1%;
+    }
+
+    .mapa {
+        display: flex;
+        background-image: url(../assets/img/pattern.jpg);
+        justify-content: center;
+        width: 100%;
+        border-style: solid;
+        border-width: 3px;
+        border-color: rgb(4, 77, 34);
+        color: rgb(1, 27, 12);
+    }
+
+    .galeria {
+        background-color: rgb(4, 77, 34);
+        padding: 2px;
+        justify-content: center;
+        padding: 1px;
+        img {
+            width: 100%;
+            opacity: 0.7;
+            border-style: solid;
+            border-width: 3px;
+            border-color: rgb(4, 77, 34);
+        }
+        img:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.preguntas {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/img/pattern.jpg);
+    text-align: center;
+    padding: 50px;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    border-radius: 2%;
+    color: rgb(1, 27, 12);
+    text-shadow: 1px 1px 6px rgb(218, 248, 201);
+}
+
+    
+
+    
+
+
+
+

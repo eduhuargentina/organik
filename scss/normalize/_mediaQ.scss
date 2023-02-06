@@ -1,0 +1,45 @@
+@media (max-width: 576px) {
+    .datosContacto {
+        flex-direction: column;
+    }
+
+    .datosContacto div {
+        width: 100%;
+    }
+
+    .mainIndex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        .mainLeft {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    
+        .mainRight {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    }
+
+    .section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        .infoSection{
+            margin: 3px;
+            width: 90%;
+        }
+        
+    }
+
+
+
+}

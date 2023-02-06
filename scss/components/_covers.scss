@@ -1,0 +1,152 @@
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainIndex {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../assets/img/brotesCrecen.jpg);
+    background-repeat: no-repeat;
+    height: 85vh;
+    background-size: cover;
+    background-position: 0px;
+    padding: 3%;
+    padding-top: 50px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(4, 77, 34);
+    .mainLeft {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+        .proximosEnvios {
+            font-family: "Alexandria", sans-serif;
+            text-decoration: none;
+            border-radius: 10px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgb(4, 77, 34);
+            color: rgb(4, 77, 34);
+            background-color: rgb(232, 255, 235);
+            padding: 50px;
+            justify-content: center;
+            align-items: flex-end;
+            margin-bottom: 20px;
+            width: 90%;
+        }
+        
+        .botonHacerPedidoMain {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            a {
+                font-family: "Alexandria", sans-serif;
+                font-weight: 700;
+                text-decoration: none;
+                border-radius: 10px;
+                color: rgb(218, 248, 201);
+                background-color: rgb(4, 77, 34);
+                border-color: rgb(218, 248, 201);
+                border-width: 2px;
+                border-style: solid;
+                padding: 10px;
+            }
+        }
+    }
+    
+    .mainRight {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        
+        .bolsones {
+            font-family: "Alexandria", sans-serif;
+            text-decoration: none;
+            border-radius: 10px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgb(4, 77, 34);
+            color: rgb(4, 77, 34);
+            background-color: rgb(232, 255, 235);
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            padding-bottom: 10px;
+            margin: 10px;
+            width: 250px;
+            height: 320px;
+            text-align: start;
+        }
+    }
+}
+
+
+
+
+
+
+
+.portadaPorQue {
+    background-image: url(../assets/img/variedades2.jpg);
+    background-repeat: no-repeat;
+    background-position: center 50%;
+    height: 85vh;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    background-size: cover;
+    text-shadow: 1px 1px 6px black;
+}
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    .portadaBgPreguntas {
+        background-image: url(../assets/img/nena\ y\ verduras.jpg);
+        background-repeat: no-repeat;
+        background-position: center 50%;
+        height: 85vh;
+        text-align: center;
+        border-style: solid;
+        border-color: rgb(4, 77, 34);
+        background-size: cover;
+        text-shadow: 1px 1px 6px black;
+    }
+    .portadaContacto {
+        background-image: url(../assets/img/tomates.jpg);
+        background-repeat: no-repeat;
+        background-position: center 50%;
+        height: 85vh;
+        text-align: center;
+        border-style: solid;
+        border-color: rgb(4, 77, 34);
+        background-size: cover;
+        color: rgb(218, 248, 201);
+        text-shadow: 1px 1px 6px black;
+    }
+    .portadaBgdondeEstamos {
+        background-image: url(../assets/img/cultivo-maiz.jpg);
+        background-repeat: no-repeat;
+        background-position: center 50%;
+        height: 85vh;
+        text-align: center;
+        padding: 200px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: rgb(4, 77, 34);
+        background-size: cover;
+        text-shadow: 1px 1px 6px black;
+    }
+}
+
+
+
+
+
