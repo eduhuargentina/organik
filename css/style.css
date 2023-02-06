@@ -28,10 +28,9 @@
 }
 
 header {
-    display: flex;
+    width: 100%;
     background-color: rgb(4, 77, 34);
-    padding: 10px;
-    position: fixed;
+
 }
 
 .contenedorLogoFrase {
@@ -116,14 +115,25 @@ nav {
     padding: 3px;
 }
 
+.mainSection {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .mainIndex {
     display: flex;
     flex-direction: row;
-    background-image: url(../assets/img/campo.jpg);
+    background-image: url(../assets/img/brotesCrecen.jpg);
     background-repeat: no-repeat;
+    height: 85vh;
     background-size: cover;
+    background-position: 0px ;
     padding: 3%;
-    padding-top: 100px;
+    padding-top: 50px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(4, 77, 34)
 
 }
 
@@ -131,7 +141,7 @@ nav {
     display: flex;
     flex-direction: column;
     width: 40%;
-    margin-top: 100px;
+    justify-content: center;
     align-items: center;
 }
 
@@ -141,14 +151,18 @@ nav {
     width: 60%;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
 }
+
+
 
 .proximosEnvios {
     font-family: 'Alexandria', sans-serif;
     text-decoration: none;
     border-radius: 10px;
-    color: rgb(1, 27, 12);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(4, 77, 34);
+    color: rgb(4, 77, 34);
     background-color: rgb(232, 255, 235);
     padding: 50px;
     justify-content: center;
@@ -183,14 +197,18 @@ nav {
     font-family: 'Alexandria', sans-serif;
     text-decoration: none;
     border-radius: 10px;
-    color: rgb(1, 27, 12);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(4, 77, 34);
+    color: rgb(4, 77, 34);
     background-color: rgb(232, 255, 235);
-    padding: 30px;
-    justify-content: start;
-    margin-bottom: 20px;
-    margin-left: 5px;
-    width: 230px;
-    height: 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    width: 250px;
+    height: 320px;
     text-align: start;
 }
 
@@ -209,21 +227,28 @@ nav {
 }
 
 .infoSection {
-
+    display: flex;
     font-family: 'Alexandria', sans-serif;
     text-decoration: none;
     border-radius: 10px;
-    color: rgb(1, 27, 12);
+    color: rgb(4, 77, 34);
     background-color: rgb(232, 255, 235);
-    padding: 30px;
+    padding: 25px;
     justify-content: start;
-    margin-bottom: 20px;
     margin-left: 5px;
     width: 25%;
-    height: 50%;
+    height: 25vh;
     text-align: start;
+    overflow: auto;
 }
 
+.footerBootstrap {
+
+
+    background-color: rgb(4, 77, 34);
+    width: 100%;
+
+}
 
 footer {
 
@@ -257,6 +282,16 @@ footer {
     width: 60%;
 }
 
+.logoFooterBootstrap {
+    width: 100px;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.logoBootstrap {
+    width: 100px;
+}
+
 .logoFooter img {
     width: 100%;
 }
@@ -272,6 +307,14 @@ footer {
 }
 
 .fraseFooter {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 0.8rem;
+
+}
+
+.fraseFooterBootstrap {
+    color: rgb(218, 248, 201);
     list-style-type: none;
     text-decoration: none;
     font-size: 0.8rem;
@@ -298,9 +341,32 @@ footer {
 
 }
 
+.redesSocialesBootstrap a {
+    text-decoration: none;
+    color: rgb(218, 248, 201);
+    padding: 5px;
+
+}
+
 .footerInferior {
     display: flex;
     flex-direction: row;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    width: 80%;
+    height: 40%;
+    border: solid 1px rgb(218, 248, 201);
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+
+}
+
+.footerInferiorBootstrap {
+
     padding-left: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -322,11 +388,21 @@ footer {
     text-align: center;
 }
 
+.footerTitleBootstrap {
+    color: rgb(218, 248, 201);
+}
+
 .formFooterInput {
     color: rgb(218, 248, 201);
     display: flex;
     width: 40%;
     justify-content: end;
+    font-size: 0.8rem;
+
+}
+
+.formFooterInputBootstrap {
+    color: rgb(218, 248, 201);
     font-size: 0.8rem;
 
 }
@@ -347,22 +423,17 @@ footer {
     padding: 3px;
 }
 
-.portadaGaleria {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.dondeEstamos {
-
+.portadaBgdondeEstamos {
     background-image: url(../assets/img/cultivo-maiz.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center 50%;
+    height: 85vh;
     text-align: center;
     padding: 200px;
     border-style: solid;
+    border-width: 3px;
     border-color: rgb(4, 77, 34);
-    color: rgb(1, 27, 12);
+    background-size: cover;
 }
 
 .dondeEstamosMenu {
@@ -372,27 +443,31 @@ footer {
 }
 
 .nuestrosProductores {
-    width: 50%;
     background-image: url(../assets/img/invernadero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     padding: 100px;
     border-style: solid;
+    border-width: 3px;
     border-color: rgb(4, 77, 34);
-    color: rgb(1, 27, 12);
+    color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
+    border-radius: 1%;
 }
 
 .nuestroPuntoDeEntrega {
-    width: 50%;
     background-image: url(../assets/img/nena\ y\ verduras.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     padding: 100px;
     border-style: solid;
+    border-width: 3px;
     border-color: rgb(4, 77, 34);
-    color: rgb(1, 27, 12);
+    color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
+    border-radius: 1%;
 }
 
 .mapa {
@@ -401,6 +476,7 @@ footer {
     justify-content: center;
     width: 100%;
     border-style: solid;
+    border-width:3px;
     border-color: rgb(4, 77, 34);
     color: rgb(1, 27, 12);
 
@@ -408,15 +484,18 @@ footer {
 
 .galeria {
     background-color: rgb(4, 77, 34);
-    display: flex;
-    flex-wrap: wrap;
+    padding: 2px;
     justify-content: center;
+    padding: 1px;
+
 }
 
-.galeria img {
-    width: 30%;
-    padding: 2px;
-    opacity: 0.8;
+.galeria img{
+    width: 100%;
+    opacity: 0.7;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(4, 77, 34)
 }
 
 .galeria img:hover {
@@ -428,8 +507,21 @@ footer {
     flex-direction: column;
     background-image: url(../assets/img/pattern.jpg);
     color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
+}
+.portadaPorQue{
+    background-image: url(../assets/img/variedades2.jpg);
+    background-repeat: no-repeat;
+    background-position: center 50%;
+    height: 85vh;
+    text-align: center;
+    padding: 200px;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
+    background-size: cover;
 }
 
 .explicacionUno {
@@ -438,8 +530,8 @@ footer {
     background-size: cover;
     width: 80%;
     height: 30%;
-    text-align: center;
-    margin-top: 120px;
+    text-align: center;  
+    margin-top: 30px;
     margin-bottom: 30px;
     border-color: rgb(4, 77, 34);
     border-style: solid;
@@ -455,7 +547,9 @@ footer {
 }
 
 .explicacionUno p {
+    padding-inline: 20px;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 .explicacionDos {
@@ -481,7 +575,10 @@ footer {
 }
 
 .explicacionDos p {
+    padding-inline: 20px;
     padding-bottom: 20px;
+    width: 100%;
+    
 }
 
 .explicacionTres {
@@ -507,7 +604,9 @@ footer {
 }
 
 .explicacionTres p {
+    padding-inline: 20px;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 .explicacionCuatro {
@@ -515,7 +614,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     width: 80%;
-    height: 30%;
+    height: 30%;        
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -536,6 +635,10 @@ footer {
     padding-bottom: 20px;
 }
 
+.espacioNavPortada{
+    height: 126px;
+}
+
 .portadaContacto {
     display: flex;
     flex-direction: column;
@@ -544,19 +647,20 @@ footer {
 
 .contacto {
 
-    background-image: url(../assets/img/riego.jpg);
+    background-image: url(../assets/img/tomates.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding: 150px;
+    background-position: center 50%;
+    height: 85vh;
+    text-align: center;    
     border-style: solid;
     border-color: rgb(4, 77, 34);
-    color: rgb(1, 27, 12);
+    background-size: cover;
+    color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
+    padding-block: 30vh;
+
 }
 
-.contacto h1 {
-    padding-top: 80px;
-}
 
 .contacto h3 {
     padding: 20px;
@@ -567,10 +671,16 @@ footer {
     flex-direction: column;
     background-image: url(../assets/img/pattern.jpg);
     text-align: center;
-    padding: 100px;
+    padding-block: 5%;
+    padding-inline: 10%;
     border-style: solid;
     border-color: rgb(4, 77, 34);
     color: rgb(1, 27, 12);
+    text-shadow: 1px 1px 6px rgb(218, 248, 201);
+}
+
+.infoContacto h2{
+    text-align: center;
 }
 
 .datosContacto {
@@ -578,6 +688,50 @@ footer {
     flex-direction: row;
 
 
+}
+
+@media (max-width: 576px){
+    .datosContacto{
+        flex-direction: column;
+    }
+
+    .datosContacto div{
+        width: 100%;
+    }
+
+    .mainIndex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        }
+
+    .section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .infoSection{
+        width: 90%;
+        margin: 5px;
+    }
+    .mainLeft{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .mainRight{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+  
 }
 
 .datosContactoLeft {
@@ -590,9 +744,13 @@ footer {
     align-items: center;
     border-style: solid;
     border-color: rgb(4, 77, 34);
-    padding-left: 15%;
+    padding: 5%;
+    padding-inline: 10%;
     width: 50%;
     color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
+    overflow: auto;
+    text-align: start;
 }
 
 .datosContactoRight {
@@ -607,7 +765,73 @@ footer {
     border-color: rgb(4, 77, 34);
     width: 50%;
     color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
+    padding: 5%;
+    padding-left: 9%;
 
+}
+
+.form {
+    max-width: 500px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+
+.formTitle {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    width: 100%;
+    text-shadow: 1px 1px 6px black
+}
+
+
+
+.fieldset {
+    width: 100%;
+}
+
+.fieldset .inputText {
+
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.fieldset .inputText label {
+    width: 300px;
+    margin-right: 10%;
+    text-shadow: 1px 1px 6px black
+}
+
+.fieldset .inputText input {
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(4, 77, 34);
+}
+
+
+.btnEnviar {
+    width: 100%;
+    background: rgb(218, 248, 201);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(4, 77, 34);
+    border-radius: 3px;
+    color: rgb(4, 77, 34);
+    text-shadow: 1px 1px 6px rgb(218, 248, 201);
+    margin: auto auto;
+    cursor: pointer;
+    padding-bottom: 7%;
+
+
+}
+
+.btnEnviar:hover {
+    background-color: rgb(4, 77, 34);
+    color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black
 }
 
 .wapp {
@@ -653,22 +877,40 @@ footer {
 }
 
 
-.portadaPreguntasFrecuentes {
+.portada {
     display: flex;
     flex-direction: column;
+}
+
+.bgPagina {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(4, 77, 34);
 
 }
 
-.preguntasFrecuentes {
-
+.portadaBgPreguntas {
     background-image: url(../assets/img/nena\ y\ verduras.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center 50%;
+    height: 85vh;
     text-align: center;
-    padding: 200px;
     border-style: solid;
     border-color: rgb(4, 77, 34);
+    background-size: cover;
+    text-shadow: 1px 1px 6px black;
+}
+
+.textoPortada {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
     color: rgb(218, 248, 201);
+    text-shadow: 1px 1px 6px black;
 }
 
 .preguntasFrecuentes h3 {
@@ -676,24 +918,55 @@ footer {
 }
 
 .preguntas {
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     background-image: url(../assets/img/pattern.jpg);
     text-align: center;
-    padding: 100px;
+    padding: 50px;
     border-style: solid;
     border-color: rgb(4, 77, 34);
+    border-radius: 2%;
     color: rgb(1, 27, 12);
+    text-shadow: 1px 1px 6px rgb(218, 248, 201);
 }
 
 .avisoHacerPedido {
-    text-align: center;
-    padding: 80px;
     background-image: url(../assets/img/nena\ y\ verduras.jpg);
     background-repeat: no-repeat;
+    background-position: center 50%;
+    height: 85vh;
+    text-align: center;
+    padding: 200px;
+    border-style: solid;
+    border-color: rgb(4, 77, 34);
     background-size: cover;
+    text-shadow: 1px 1px 6px rgb(218, 248, 201);
 }
 
 .avisoHacerPedido h1 {
     padding-top: 80px;
+}
+
+.navbar {
+    background-color: rgb(4, 77, 34);
+}
+
+input {
+    width: 150px;
+    height: 30px;
+    transition: all 1s;
+}
+
+
+input:focus {
+    width: 200px;
+    font-size: 30px;
+}
+
+.topHeight {
+    height: 11vh;
+    background-color: rgb(4, 77, 34);
+    ;
 }
