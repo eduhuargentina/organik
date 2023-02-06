@@ -93,17 +93,9 @@
     }
 
     .nuestroPuntoDeEntrega {
+        @extend .nuestrosProductores;
         background-image: url(../assets/img/nena\ y\ verduras.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        padding: 100px;
-        border-style: solid;
-        border-width: 3px;
-        border-color: map-get($paletaColores, primario);
-        color: map-get($paletaColores, secundario);
-        text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
-        border-radius: 1%;
+
     }
 
     .mapa {
