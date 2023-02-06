@@ -15,7 +15,7 @@
     padding-top: 50px;
     border-style: solid;
     border-width: 3px;
-    border-color: rgb(4, 77, 34);
+    border-color: map-get($paletaColores, primario );
 
     .mainLeft {
         display: flex;
@@ -30,9 +30,9 @@
             border-radius: 10px;
             border-style: solid;
             border-width: 1px;
-            border-color: rgb(4, 77, 34);
-            color: rgb(4, 77, 34);
-            background-color: rgb(232, 255, 235);
+            border-color: map-get($paletaColores, primario );
+            color: map-get($paletaColores, primario );
+            background-color: map-get($paletaColores, secundario );
             padding: 50px;
             justify-content: center;
             align-items: flex-end;
@@ -51,9 +51,9 @@
                 font-weight: 700;
                 text-decoration: none;
                 border-radius: 10px;
-                color: rgb(218, 248, 201);
-                background-color: rgb(4, 77, 34);
-                border-color: rgb(218, 248, 201);
+                color: map-get($paletaColores, secundario );
+                background-color: map-get($paletaColores, primario );
+                border-color: map-get($paletaColores, secundario );
                 border-width: 2px;
                 border-style: solid;
                 padding: 10px;
@@ -74,9 +74,9 @@
             border-radius: 10px;
             border-style: solid;
             border-width: 1px;
-            border-color: rgb(4, 77, 34);
-            color: rgb(4, 77, 34);
-            background-color: rgb(232, 255, 235);
+            border-color: map-get($paletaColores, primario );
+            color: map-get($paletaColores, primario );
+            background-color: map-get($paletaColores, secundario );
             align-items: center;
             justify-content: center;
             padding: 10px;
@@ -100,9 +100,9 @@
         height: 85vh;
         text-align: center;
         border-style: solid;
-        border-color: rgb(4, 77, 34);
+        border-color: map-get($paletaColores, primario );
         background-size: cover;
-        text-shadow: 1px 1px 6px black;
+        text-shadow: 1px 1px 6px map-get($paletaColores, terciario );
     }
 
     .portadaContacto {
@@ -112,10 +112,10 @@
         height: 85vh;
         text-align: center;
         border-style: solid;
-        border-color: rgb(4, 77, 34);
+        border-color: map-get($paletaColores, primario );
         background-size: cover;
-        color: rgb(218, 248, 201);
-        text-shadow: 1px 1px 6px black;
+        color: map-get($paletaColores, secundario );
+        text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
     }
 
     .portadaBgdondeEstamos {
@@ -127,9 +127,9 @@
         padding: 200px;
         border-style: solid;
         border-width: 3px;
-        border-color: rgb(4, 77, 34);
+        border-color: map-get($paletaColores, primario);
         background-size: cover;
-        text-shadow: 1px 1px 6px black;
+        text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
     }
 
     .portadaPorQue {
@@ -139,9 +139,9 @@
         height: 85vh;
         text-align: center;
         border-style: solid;
-        border-color: rgb(4, 77, 34);
+        border-color: map-get($paletaColores, primario);
         background-size: cover;
-        text-shadow: 1px 1px 6px black;
+        text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
     }
 
     .avisoHacerPedido {
@@ -152,9 +152,9 @@
         text-align: center;
         padding: 200px;
         border-style: solid;
-        border-color: rgb(4, 77, 34);
+        border-color: map-get($paletaColores, primario);
         background-size: cover;
-        text-shadow: 1px 1px 6px rgb(218, 248, 201);
+        text-shadow: 1px 1px 6px map-get($paletaColores, secundario);
 
         h1 {
             padding-top: 80px;

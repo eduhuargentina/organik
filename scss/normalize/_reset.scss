@@ -7,5 +7,5 @@
 .bgPagina {
     display: flex;
     flex-direction: column;
-    background-color: rgb(4, 77, 34);
+    background-color: map-get($paletaColores, primario);
 }

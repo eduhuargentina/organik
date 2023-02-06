@@ -239,10 +239,10 @@
         justify-content: center;
         align-items: center;
         border-style: solid;
-        border-color: rgb(4, 77, 34);
+        border-color: map-get($paletaColores, primario);
         width: 50%;
-        color: rgb(218, 248, 201);
-        text-shadow: 1px 1px 6px black;
+        color: map-get($paletaColores, secundario);
+        text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
         padding: 5%;
         padding-left: 9%;
         .formR {
@@ -253,7 +253,7 @@
                 font-size: 2rem;
                 margin-bottom: 5px;
                 width: 100%;
-                text-shadow: 1px 1px 6px black;
+                text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
             }
             
             .fieldset {
@@ -265,32 +265,32 @@
                     label {
                         width: 300px;
                         margin-right: 10%;
-                        text-shadow: 1px 1px 6px black;
+                        text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
                     }
                     input {
                         width: 80%;
                         border-style: solid;
                         border-width: 1px;
-                        border-color: rgb(4, 77, 34);
+                        border-color: map-get($paletaColores, primario);
                     }
                     .btnEnviar {
                         width: 100%;
-                        background: rgb(218, 248, 201);
+                        background: map-get($paletaColores, secundario);
                         border-style: solid;
                         border-width: 1px;
-                        border-color: rgb(4, 77, 34);
+                        border-color: map-get($paletaColores, primario);
                         border-radius: 3px;
-                        color: rgb(4, 77, 34);
-                        text-shadow: 1px 1px 6px rgb(218, 248, 201);
+                        color: map-get($paletaColores, primario);
+                        text-shadow: 1px 1px 6px map-get($paletaColores, secundario);
                         margin: auto auto;
                         cursor: pointer;
                         padding-bottom: 7%;
                     }
                     
                     .btnEnviar:hover {
-                        background-color: rgb(4, 77, 34);
-                        color: rgb(218, 248, 201);
-                        text-shadow: 1px 1px 6px black;
+                        background-color: map-get($paletaColores, primario);
+                        color: map-get($paletaColores, secundario);
+                        text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
                     }
                 }
             }

@@ -1,6 +1,6 @@
 .textoBlanco1 {
     text-decoration: none;
-    color: rgb(218, 248, 201);
+    color: map-get($paletaColores, secundario);
     font-size: 1rem;
 }
 
@@ -27,6 +27,6 @@
     justify-content: center;
     text-align: center;
     padding: 100px;
-    color: rgb(218, 248, 201);
-    text-shadow: 1px 1px 6px black;
+    color: map-get($paletaColores, secundario);
+    text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
 }
