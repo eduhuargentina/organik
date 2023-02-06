@@ -344,9 +344,6 @@ footer {
   background-size: cover;
   text-shadow: 1px 1px 6px black;
 }
-.portada .avisoHacerPedido h1 {
-  padding-top: 80px;
-}
 
 .section {
   display: flex;
