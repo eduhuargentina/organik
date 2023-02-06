@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgPagina {
+    display: flex;
+    flex-direction: column;
+    background-color: map-get($paletaColores, primario);
+}

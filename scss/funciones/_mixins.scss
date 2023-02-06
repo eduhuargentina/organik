@@ -1,0 +1,11 @@
+@mixin portadas ($bgRep, $bgPos, $height, $textAl, $padding, $borSt, $borCol, $bgSize, $txtShad){
+    background-repeat: $bgRep;
+    background-position: $bgPos;
+    height: $height;
+    text-align: $textAl;
+    padding: $padding;
+    border-style: $borSt;
+    border-color: $borCol;
+    background-size: $bgSize;
+    text-shadow: $txtShad;
+}

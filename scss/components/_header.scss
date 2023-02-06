@@ -1,0 +1,89 @@
+.espacioNavPortada {
+    height: 126px;
+}
+header {
+    width: 100%;
+    background-color: map-get($paletaColores, primario);
+
+}
+
+.navbar {
+    background-color: map-get($paletaColores, primario);
+}
+
+.contenedorLogoFrase {
+    display: flex;
+    width: 25%;
+
+    .contenedorLogo {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 30%;
+
+        .logo {
+            width: 60%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .contenedorFrase {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        width: 70%;
+        color: map-get($paletaColores, secundario);
+
+        .frase {
+            list-style-type: none;
+            text-decoration: none;
+            padding-left: 10px;
+            font-size: 0.8rem;
+
+        }
+
+    }
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    li a {
+        text-decoration: none;
+        color: map-get($paletaColores, secundario);
+        font-size: 1rem;
+        font-family: 'Alexandria', sans-serif;
+        font-weight: 500;
+    }
+    .botonHacerPedido {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+    
+        a {
+    
+    
+            font-family: 'Alexandria', sans-serif;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 10px;
+            color: map-get($paletaColores, primario);
+            background-color: map-get($paletaColores, secundario);
+            padding: 3px;
+        }
+    }
+
+}
+
+
+
+
+
+
+

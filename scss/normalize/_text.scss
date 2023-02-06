@@ -1,0 +1,32 @@
+.textoBlanco1 {
+    text-decoration: none;
+    color: map-get($paletaColores, secundario);
+    font-size: 1rem;
+}
+
+.texto300 {
+    font-family: "Alexandria", sans-serif;
+    font-weight: 300;
+}
+
+.texto500 {
+    font-family: "Alexandria", sans-serif;
+    font-weight: 500;
+}
+
+.texto700 {
+    font-family: "Alexandria", sans-serif;
+    font-weight: 700;
+}
+
+.textoPortada {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    color: map-get($paletaColores, secundario);
+    text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
+}

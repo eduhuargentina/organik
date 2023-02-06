@@ -1,0 +1,83 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: map-get($paletaColores, primario);
+}
+.footerBootstrap {
+    background-color: map-get($paletaColores, primario);
+    width: 100%;
+    .logoFooterBootstrap {
+        width: 100px;
+        justify-content: end;
+        align-items: flex-end;
+        .logo {
+            width: 60%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .fraseFooterBootstrap {
+        color: map-get($paletaColores, secundario);
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 0.8rem;
+    }
+    .redesSocialesBootstrap a {
+        text-decoration: none;
+        color: map-get($paletaColores, secundario);
+        padding: 5px;
+    }
+    .footerInferiorBootstrap {
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        width: 80%;
+        height: 40%;
+        border: solid 1px map-get($paletaColores, secundario);
+        margin-left: 10%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .footerTitleBootstrap {
+        color: map-get($paletaColores, secundario);
+    }
+    
+    .formFooterInputBootstrap {
+        color: map-get($paletaColores, secundario);
+        font-size: 0.8rem;       
+    }
+
+    input {
+        width: 150px;
+        height: 30px;
+        transition: all 1s;
+        
+        input:focus {
+            width: 200px;
+            font-size: 30px;
+        }
+    }
+    
+    .footerButtom {
+        display: flex;
+        width: 20%;
+        justify-content: center;
+        a {
+            font-family: "Alexandria", sans-serif;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 10px;
+            color: map-get($paletaColores, primario);
+            background-color: map-get($paletaColores, secundario);
+            padding: 10px;
+        }
+    }
+    
+}
+
+
+
+

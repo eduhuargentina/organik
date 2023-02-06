@@ -1,0 +1,121 @@
+.mainSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainIndex {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../assets/img/brotesCrecen.jpg);
+    @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, none);
+    background-position: 0px;
+    padding: 3%;
+    padding-top: 50px;
+    border-width: 3px;
+    
+    .mainLeft {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+
+        .proximosEnvios {
+            font-family: "Alexandria", sans-serif;
+            text-decoration: none;
+            border-radius: 10px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: map-get($paletaColores, primario );
+            color: map-get($paletaColores, primario );
+            background-color: map-get($paletaColores, secundario );
+            padding: 50px;
+            justify-content: center;
+            align-items: flex-end;
+            margin-bottom: 20px;
+            width: 90%;
+        }
+
+        .botonHacerPedidoMain {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+
+            a {
+                font-family: "Alexandria", sans-serif;
+                font-weight: 700;
+                text-decoration: none;
+                border-radius: 10px;
+                color: map-get($paletaColores, secundario );
+                background-color: map-get($paletaColores, primario );
+                border-color: map-get($paletaColores, secundario );
+                border-width: 2px;
+                border-style: solid;
+                padding: 10px;
+            }
+        }
+    }
+
+    .mainRight {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+
+        .bolsones {
+            font-family: "Alexandria", sans-serif;
+            text-decoration: none;
+            border-radius: 10px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: map-get($paletaColores, primario );
+            color: map-get($paletaColores, primario );
+            background-color: map-get($paletaColores, secundario );
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            padding-bottom: 10px;
+            margin: 10px;
+            width: 250px;
+            height: 320px;
+            text-align: start;
+        }
+    }
+}
+
+.portada {
+    display: flex;
+    flex-direction: column;
+
+    .portadaBgPreguntas {
+        background-image: url(../assets/img/nena\ y\ verduras.jpg);
+        @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
+    }
+
+    .portadaContacto {
+        background-image: url(../assets/img/tomates.jpg);
+        @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
+    }
+
+    .portadaBgdondeEstamos {
+        background-image: url(../assets/img/cultivo-maiz.jpg);
+        @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
+    }
+
+    .portadaPorQue {
+        background-image: url(../assets/img/variedades2.jpg);
+        @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
+    }
+
+    .avisoHacerPedido {
+        background-image: url(../assets/img/variedades.jpg);
+        @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
+
+
+        h1 {
+            padding-top: 80px;
+        }
+    }
+}

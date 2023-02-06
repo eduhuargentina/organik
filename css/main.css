@@ -1,0 +1,663 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;700;900&family=Fjalla+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bgPagina {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(4, 77, 34);
+}
+
+.textoBlanco1 {
+  text-decoration: none;
+  color: rgb(218, 248, 201);
+  font-size: 1rem;
+}
+
+.texto300 {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 300;
+}
+
+.texto500 {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 500;
+}
+
+.texto700 {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 700;
+}
+
+.textoPortada {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+  color: rgb(218, 248, 201);
+  text-shadow: 1px 1px 6px black;
+}
+
+.espacioNavPortada {
+  height: 126px;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(4, 77, 34);
+}
+
+.navbar {
+  background-color: rgb(4, 77, 34);
+}
+
+.contenedorLogoFrase {
+  display: flex;
+  width: 25%;
+}
+.contenedorLogoFrase .contenedorLogo {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 30%;
+}
+.contenedorLogoFrase .contenedorLogo .logo {
+  width: 60%;
+}
+.contenedorLogoFrase .contenedorLogo .logo img {
+  width: 100%;
+}
+.contenedorLogoFrase .contenedorFrase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 70%;
+  color: rgb(218, 248, 201);
+}
+.contenedorLogoFrase .contenedorFrase .frase {
+  list-style-type: none;
+  text-decoration: none;
+  padding-left: 10px;
+  font-size: 0.8rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+nav li a {
+  text-decoration: none;
+  color: rgb(218, 248, 201);
+  font-size: 1rem;
+  font-family: "Alexandria", sans-serif;
+  font-weight: 500;
+}
+nav .botonHacerPedido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+nav .botonHacerPedido a {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 10px;
+  color: rgb(4, 77, 34);
+  background-color: rgb(218, 248, 201);
+  padding: 3px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(4, 77, 34);
+}
+
+.footerBootstrap {
+  background-color: rgb(4, 77, 34);
+  width: 100%;
+}
+.footerBootstrap .logoFooterBootstrap {
+  width: 100px;
+  justify-content: end;
+  align-items: flex-end;
+}
+.footerBootstrap .logoFooterBootstrap .logo {
+  width: 60%;
+}
+.footerBootstrap .logoFooterBootstrap .logo img {
+  width: 100%;
+}
+.footerBootstrap .fraseFooterBootstrap {
+  color: rgb(218, 248, 201);
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.footerBootstrap .redesSocialesBootstrap a {
+  text-decoration: none;
+  color: rgb(218, 248, 201);
+  padding: 5px;
+}
+.footerBootstrap .footerInferiorBootstrap {
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  width: 80%;
+  height: 40%;
+  border: solid 1px rgb(218, 248, 201);
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.footerBootstrap .footerTitleBootstrap {
+  color: rgb(218, 248, 201);
+}
+.footerBootstrap .formFooterInputBootstrap {
+  color: rgb(218, 248, 201);
+  font-size: 0.8rem;
+}
+.footerBootstrap input {
+  width: 150px;
+  height: 30px;
+  transition: all 1s;
+}
+.footerBootstrap input input:focus {
+  width: 200px;
+  font-size: 30px;
+}
+.footerBootstrap .footerButtom {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+}
+.footerBootstrap .footerButtom a {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 10px;
+  color: rgb(4, 77, 34);
+  background-color: rgb(218, 248, 201);
+  padding: 10px;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainIndex {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../assets/img/brotesCrecen.jpg);
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  height: 85vh;
+  text-align: center;
+  padding: 200px;
+  border-style: solid;
+  border-color: rgb(4, 77, 34);
+  background-size: cover;
+  text-shadow: none;
+  background-position: 0px;
+  padding: 3%;
+  padding-top: 50px;
+  border-width: 3px;
+}
+.mainIndex .mainLeft {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+.mainIndex .mainLeft .proximosEnvios {
+  font-family: "Alexandria", sans-serif;
+  text-decoration: none;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(4, 77, 34);
+  color: rgb(4, 77, 34);
+  background-color: rgb(218, 248, 201);
+  padding: 50px;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  width: 90%;
+}
+.mainIndex .mainLeft .botonHacerPedidoMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.mainIndex .mainLeft .botonHacerPedidoMain a {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 10px;
+  color: rgb(218, 248, 201);
+  background-color: rgb(4, 77, 34);
+  border-color: rgb(218, 248, 201);
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px;
+}
+.mainIndex .mainRight {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+.mainIndex .mainRight .bolsones {
+  font-family: "Alexandria", sans-serif;
+  text-decoration: none;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(4, 77, 34);
+  color: rgb(4, 77, 34);
+  background-color: rgb(218, 248, 201);
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+  width: 250px;
+  height: 320px;
+  text-align: start;
+}
+
+.portada {
+  display: flex;
+  flex-direction: column;
+}
+.portada .portadaBgPreguntas {
+  background-image: url(../assets/img/nena\ y\ verduras.jpg);
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  height: 85vh;
+  text-align: center;
+  padding: 200px;
+  border-style: solid;
+  border-color: rgb(4, 77, 34);
+  background-size: cover;
+  text-shadow: 1px 1px 6px black;
+}
+.portada .portadaContacto {
+  background-image: url(../assets/img/tomates.jpg);
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  height: 85vh;
+  text-align: center;
+  padding: 200px;
+  border-style: solid;
+  border-color: rgb(4, 77, 34);
+  background-size: cover;
+  text-shadow: 1px 1px 6px black;
+}
+.portada .portadaBgdondeEstamos {
+  background-image: url(../assets/img/cultivo-maiz.jpg);
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  height: 85vh;
+  text-align: center;
+  padding: 200px;
+  border-style: solid;
+  border-color: rgb(4, 77, 34);
+  background-size: cover;
+  text-shadow: 1px 1px 6px black;
+}
+.portada .portadaPorQue {
+  background-image: url(../assets/img/variedades2.jpg);
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  height: 85vh;
+  text-align: center;
+  padding: 200px;
+  border-style: solid;
+  border-color: rgb(4, 77, 34);
+  background-size: cover;
+  text-shadow: 1px 1px 6px black;
+}
+.portada .avisoHacerPedido {
+  background-image: url(../assets/img/variedades.jpg);
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  height: 85vh;
+  text-align: center;
+  padding: 200px;
+  border-style: solid;
+  border-color: rgb(4, 77, 34);
+  background-size: cover;
+  text-shadow: 1px 1px 6px black;
+}
+.portada .avisoHacerPedido h1 {
+  padding-top: 80px;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../assets/img/pattern.jpg);
+  padding: 3%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-top: 3px;
+  border-style: solid;
+  border-color: rgb(4, 77, 34);
+  justify-content: space-evenly;
+}
+.section .infoSection {
+  display: flex;
+  font-family: "Alexandria", sans-serif;
+  text-decoration: none;
+  border-radius: 10px;
+  color: rgb(4, 77, 34);
+  background-color: rgb(218, 248, 201);
+  padding: 25px;
+  justify-content: start;
+  margin-left: 5px;
+  width: 25%;
+  height: 25vh;
+  text-align: start;
+  overflow: auto;
+}
+
+.porQueOrganik {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/img/pattern.jpg);
+  color: rgb(218, 248, 201);
+  text-shadow: 1px 1px 6px black;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.porQueOrganik .explicacionUno {
+  background-image: url(../assets/img/moras.jpg);
+}
+.porQueOrganik .explicacionDos {
+  background-image: url(../assets/img/riego.jpg);
+}
+.porQueOrganik .explicacionTres {
+  background-image: url(../assets/img/peras.jpg);
+}
+.porQueOrganik .explicacionCuatro {
+  background-image: url(../assets/img/campo.jpg);
+}
+.porQueOrganik div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 30%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-color: rgb(4, 77, 34);
+  border-style: solid;
+  padding: 20px;
+}
+.porQueOrganik div div h3 {
+  padding: 20px;
+}
+.porQueOrganik div div h1 {
+  padding-bottom: 20px;
+}
+.porQueOrganik div div p {
+  padding-inline: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.dondeEstamos .nuestrosProductores, .dondeEstamos .nuestroPuntoDeEntrega {
+  background-image: url(../assets/img/invernadero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 100px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(4, 77, 34);
+  color: rgb(218, 248, 201);
+  text-shadow: 1px 1px 6px black;
+  border-radius: 1%;
+}
+.dondeEstamos .nuestroPuntoDeEntrega {
+  background-image: url(../assets/img/nena\ y\ verduras.jpg);
+}
+.dondeEstamos .mapa {
+  display: flex;
+  background-image: url(../assets/img/pattern.jpg);
+  justify-content: center;
+  width: 100%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(4, 77, 34);
+  color: black;
+}
+.dondeEstamos .galeria {
+  background-color: rgb(4, 77, 34);
+  padding: 2px;
+  justify-content: center;
+  padding: 1px;
+}
+.dondeEstamos .galeria img {
+  width: 100%;
+  opacity: 0.7;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(4, 77, 34);
+}
+.dondeEstamos .galeria img:hover {
+  opacity: 1;
+}
+
+.preguntas {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/img/pattern.jpg);
+  text-align: center;
+  padding: 50px;
+  border-style: solid;
+  border-color: rgb(4, 77, 34);
+  border-radius: 2%;
+  color: black;
+  text-shadow: 1px 1px 6px rgb(218, 248, 201);
+}
+
+.infoContacto {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/img/pattern.jpg);
+  text-align: center;
+  padding-block: 5%;
+  padding-inline: 10%;
+  border-style: solid;
+  border-color: rgb(4, 77, 34);
+  color: black;
+  text-shadow: 1px 1px 6px rgb(218, 248, 201);
+}
+.infoContacto h2 {
+  text-align: center;
+}
+
+.datosContacto {
+  display: flex;
+  flex-direction: row;
+}
+.datosContacto .datosContactoLeft {
+  display: flex;
+  background-image: url(../assets/img/peras.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: start;
+  align-items: center;
+  border-style: solid;
+  border-color: rgb(4, 77, 34);
+  padding: 5%;
+  padding-inline: 10%;
+  width: 50%;
+  color: rgb(218, 248, 201);
+  text-shadow: 1px 1px 6px black;
+  overflow: auto;
+  text-align: start;
+}
+.datosContacto .datosContactoLeft .formL {
+  max-width: 500px;
+  width: 100%;
+  margin: 10px auto;
+}
+.datosContacto .datosContactoLeft .formL .wapp {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: start;
+  align-items: center;
+}
+.datosContacto .datosContactoLeft .formL .wapp a {
+  color: rgb(218, 248, 201);
+  justify-content: start;
+}
+.datosContacto .datosContactoLeft .formL .wapp h2 {
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+}
+.datosContacto .datosContactoLeft .formL .mail {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+  justify-content: start;
+  align-items: center;
+}
+.datosContacto .datosContactoLeft .formL .mail a {
+  color: rgb(218, 248, 201);
+  text-decoration: none;
+  justify-content: start;
+}
+.datosContacto .datosContactoLeft .formL .mail h2 {
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+}
+.datosContacto .datosContactoRight {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/img/moras.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: rgb(4, 77, 34);
+  width: 50%;
+  color: rgb(218, 248, 201);
+  text-shadow: 1px 1px 6px black;
+  padding: 5%;
+  padding-left: 9%;
+}
+.datosContacto .datosContactoRight .formR {
+  max-width: 500px;
+  width: 100%;
+  margin: 10px auto;
+}
+.datosContacto .datosContactoRight .formR .formTitle {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  width: 100%;
+  text-shadow: 1px 1px 6px black;
+}
+.datosContacto .datosContactoRight .formR .fieldset {
+  width: 100%;
+}
+.datosContacto .datosContactoRight .formR .fieldset .inputText {
+  display: flex;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+.datosContacto .datosContactoRight .formR .fieldset .inputText label {
+  width: 300px;
+  margin-right: 10%;
+  text-shadow: 1px 1px 6px black;
+}
+.datosContacto .datosContactoRight .formR .fieldset .inputText input {
+  width: 80%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(4, 77, 34);
+}
+.datosContacto .datosContactoRight .formR .fieldset .inputText .btnEnviar {
+  width: 100%;
+  background: rgb(218, 248, 201);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(4, 77, 34);
+  border-radius: 3px;
+  color: rgb(4, 77, 34);
+  text-shadow: 1px 1px 6px rgb(218, 248, 201);
+  margin: auto auto;
+  cursor: pointer;
+  padding-bottom: 7%;
+}
+.datosContacto .datosContactoRight .formR .fieldset .inputText .btnEnviar:hover {
+  background-color: rgb(4, 77, 34);
+  color: rgb(218, 248, 201);
+  text-shadow: 1px 1px 6px black;
+}
+
+@media (max-width: 576px) {
+  .datosContacto {
+    flex-direction: column;
+  }
+  .datosContacto .datosContactoRight {
+    width: 100%;
+  }
+  .datosContacto .datosContactoLeft {
+    width: 100%;
+  }
+  .mainIndex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .mainIndex .mainLeft {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .mainIndex .mainRight {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .section .infoSection {
+    margin: 3px;
+    width: 90%;
+  }
+}/*# sourceMappingURL=main.css.map */
