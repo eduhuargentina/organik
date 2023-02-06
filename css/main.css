@@ -201,14 +201,18 @@ footer {
   flex-direction: row;
   background-image: url(../assets/img/brotesCrecen.jpg);
   background-repeat: no-repeat;
+  background-position: center 50%;
   height: 85vh;
+  text-align: center;
+  padding: 200px;
+  border-style: solid;
+  border-color: rgb(4, 77, 34);
   background-size: cover;
+  text-shadow: none;
   background-position: 0px;
   padding: 3%;
   padding-top: 50px;
-  border-style: solid;
   border-width: 3px;
-  border-color: rgb(4, 77, 34);
 }
 .mainIndex .mainLeft {
   display: flex;
@@ -286,6 +290,7 @@ footer {
   background-position: center 50%;
   height: 85vh;
   text-align: center;
+  padding: 200px;
   border-style: solid;
   border-color: rgb(4, 77, 34);
   background-size: cover;
@@ -297,10 +302,10 @@ footer {
   background-position: center 50%;
   height: 85vh;
   text-align: center;
+  padding: 200px;
   border-style: solid;
   border-color: rgb(4, 77, 34);
   background-size: cover;
-  color: rgb(218, 248, 201);
   text-shadow: 1px 1px 6px black;
 }
 .portada .portadaBgdondeEstamos {
@@ -311,7 +316,6 @@ footer {
   text-align: center;
   padding: 200px;
   border-style: solid;
-  border-width: 3px;
   border-color: rgb(4, 77, 34);
   background-size: cover;
   text-shadow: 1px 1px 6px black;
@@ -322,6 +326,7 @@ footer {
   background-position: center 50%;
   height: 85vh;
   text-align: center;
+  padding: 200px;
   border-style: solid;
   border-color: rgb(4, 77, 34);
   background-size: cover;
@@ -337,7 +342,7 @@ footer {
   border-style: solid;
   border-color: rgb(4, 77, 34);
   background-size: cover;
-  text-shadow: 1px 1px 6px rgb(218, 248, 201);
+  text-shadow: 1px 1px 6px black;
 }
 .portada .avisoHacerPedido h1 {
   padding-top: 80px;
@@ -361,7 +366,7 @@ footer {
   text-decoration: none;
   border-radius: 10px;
   color: rgb(4, 77, 34);
-  background-color: rgb(232, 255, 235);
+  background-color: rgb(218, 248, 201);
   padding: 25px;
   justify-content: start;
   margin-left: 5px;
@@ -451,7 +456,7 @@ footer {
   border-style: solid;
   border-width: 3px;
   border-color: rgb(4, 77, 34);
-  color: rgb(1, 27, 12);
+  color: black;
 }
 .dondeEstamos .galeria {
   background-color: rgb(4, 77, 34);
@@ -481,7 +486,7 @@ footer {
   border-style: solid;
   border-color: rgb(4, 77, 34);
   border-radius: 2%;
-  color: rgb(1, 27, 12);
+  color: black;
   text-shadow: 1px 1px 6px rgb(218, 248, 201);
 }
 
@@ -494,7 +499,7 @@ footer {
   padding-inline: 10%;
   border-style: solid;
   border-color: rgb(4, 77, 34);
-  color: rgb(1, 27, 12);
+  color: black;
   text-shadow: 1px 1px 6px rgb(218, 248, 201);
 }
 .infoContacto h2 {

@@ -7,16 +7,12 @@
     display: flex;
     flex-direction: row;
     background-image: url(../assets/img/brotesCrecen.jpg);
-    background-repeat: no-repeat;
-    height: 85vh;
-    background-size: cover;
+    @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, none);
     background-position: 0px;
     padding: 3%;
     padding-top: 50px;
-    border-style: solid;
     border-width: 3px;
-    border-color: map-get($paletaColores, primario );
-
+    
     .mainLeft {
         display: flex;
         flex-direction: column;
@@ -95,66 +91,28 @@
 
     .portadaBgPreguntas {
         background-image: url(../assets/img/nena\ y\ verduras.jpg);
-        background-repeat: no-repeat;
-        background-position: center 50%;
-        height: 85vh;
-        text-align: center;
-        border-style: solid;
-        border-color: map-get($paletaColores, primario );
-        background-size: cover;
-        text-shadow: 1px 1px 6px map-get($paletaColores, terciario );
+        @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
     }
 
     .portadaContacto {
         background-image: url(../assets/img/tomates.jpg);
-        background-repeat: no-repeat;
-        background-position: center 50%;
-        height: 85vh;
-        text-align: center;
-        border-style: solid;
-        border-color: map-get($paletaColores, primario );
-        background-size: cover;
-        color: map-get($paletaColores, secundario );
-        text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
+        @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
     }
 
     .portadaBgdondeEstamos {
         background-image: url(../assets/img/cultivo-maiz.jpg);
-        background-repeat: no-repeat;
-        background-position: center 50%;
-        height: 85vh;
-        text-align: center;
-        padding: 200px;
-        border-style: solid;
-        border-width: 3px;
-        border-color: map-get($paletaColores, primario);
-        background-size: cover;
-        text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
+        @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
     }
 
     .portadaPorQue {
         background-image: url(../assets/img/variedades2.jpg);
-        background-repeat: no-repeat;
-        background-position: center 50%;
-        height: 85vh;
-        text-align: center;
-        border-style: solid;
-        border-color: map-get($paletaColores, primario);
-        background-size: cover;
-        text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
+        @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
     }
 
     .avisoHacerPedido {
         background-image: url(../assets/img/variedades.jpg);
-        background-repeat: no-repeat;
-        background-position: center 50%;
-        height: 85vh;
-        text-align: center;
-        padding: 200px;
-        border-style: solid;
-        border-color: map-get($paletaColores, primario);
-        background-size: cover;
-        text-shadow: 1px 1px 6px map-get($paletaColores, secundario);
+        @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
+
 
         h1 {
             padding-top: 80px;
