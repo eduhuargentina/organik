@@ -610,7 +610,7 @@ footer {
   text-shadow: 1px 1px 6px rgb(218, 248, 201);
   margin: auto auto;
   cursor: pointer;
-  padding-bottom: 7%;
+  padding: 2%;
 }
 .datosContacto .datosContactoRight .formR .fieldset .inputText .btnEnviar:hover {
   background-color: rgb(4, 77, 34);

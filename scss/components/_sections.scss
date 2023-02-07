@@ -26,7 +26,6 @@
     }
 }
 
-
 .porQueOrganik {
     display: flex;
     flex-direction: column;
@@ -275,7 +274,7 @@
                         text-shadow: 1px 1px 6px map-get($paletaColores, secundario);
                         margin: auto auto;
                         cursor: pointer;
-                        padding-bottom: 7%;
+                        padding: 2%;
                     }
                     
                     .btnEnviar:hover {
