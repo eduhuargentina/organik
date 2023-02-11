@@ -37,7 +37,7 @@
     padding-top: 30px;
 
     .explicacionUno{
-        background-image: url(../assets/img/moras.jpg);
+        background-image: url(../assets/img/moras.jpg);                
     }
     .explicacionDos {
         background-image: url(../assets/img/riego.jpg);
@@ -48,8 +48,8 @@
     .explicacionCuatro {
         background-image: url(../assets/img/campo.jpg);
     }
-    div {
-        
+
+    div {       
         background-repeat: no-repeat;
         background-size: cover;
         width: 80%;
@@ -60,9 +60,12 @@
         border-color: map-get($paletaColores, primario);
         border-style: solid;
         padding: 20px;
-        div{
-            h3 {
+        ;
+        div{ 
+
+            h3{
                 padding: 20px;
+                
             }
             h1 {
                 padding-bottom: 20px;
