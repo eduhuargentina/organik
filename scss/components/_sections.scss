@@ -1,3 +1,5 @@
+
+//sección info index
 .section {
     display: flex;
     flex-direction: row;
@@ -26,6 +28,7 @@
     }
 }
 
+//sección preguntas porqué organik
 .porQueOrganik {
     display: flex;
     flex-direction: column;
@@ -79,6 +82,7 @@
     }
 }
 
+//sección dónde estamos
 .dondeEstamos{
     .nuestrosProductores {
         background-image: url(../assets/img/invernadero.jpg);
@@ -129,6 +133,7 @@
     }
 }
 
+//sección preguntas frecuentes
 .preguntas {
     width: 80%;
     margin: auto;
@@ -144,6 +149,7 @@
     text-shadow: 1px 1px 6px map-get($paletaColores, secundario);
 }
 
+//sección información de contacto
 .infoContacto {
     display: flex;
     flex-direction: column;
@@ -159,7 +165,6 @@
         text-align: center;
     }
 }
-
 
 .datosContacto {
     display: flex;

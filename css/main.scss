@@ -1,10 +1,20 @@
+//fonts
 @import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;700;900&family=Fjalla+One&display=swap");
+//paleta de colores
 @import "../scss/variables/colors";
+//funciones
 @import "../scss/funciones/mixins";
+//set standard general de las páginas
 @import "../scss/normalize/_reset.scss";
+//set textos
 @import "../scss/normalize/text";
+//header
 @import "../scss/components/header";
+//footer
 @import "../scss/components/footer";
+//portada parte superior principal de cada página
 @import "../scss/components/covers";
+//secciones parte inferior de contenido de cada página
 @import "../scss/components/sections";
+//media querys
 @import "../scss/normalize/mediaQ";

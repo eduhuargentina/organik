@@ -1,3 +1,4 @@
+//portada de index
 .mainSection {
     display: flex;
     flex-direction: column;
@@ -85,30 +86,36 @@
     }
 }
 
+//portada de todas las páginas que no son index
 .portada {
     display: flex;
     flex-direction: column;
 
+    //portada preguntas frecuentes
     .portadaBgPreguntas {
         background-image: url(../assets/img/nena\ y\ verduras.jpg);
         @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
     }
 
+    //portada contaco
     .portadaContacto {
         background-image: url(../assets/img/tomates.jpg);
         @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
     }
 
+    //portada dónde estamos
     .portadaBgdondeEstamos {
         background-image: url(../assets/img/cultivo-maiz.jpg);
         @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
     }
 
+    //portada porqué organik
     .portadaPorQue {
         background-image: url(../assets/img/variedades2.jpg);
         @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
     }
 
+    //portada hacer pedido
     .avisoHacerPedido {
         background-image: url(../assets/img/variedades.jpg);
         @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
