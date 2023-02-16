@@ -285,7 +285,7 @@ footer {
   flex-direction: column;
 }
 .portada .portadaBgPreguntas {
-  background-image: url(../assets/img/nena\ y\ verduras.jpg);
+  background-image: url(../assets/img/moras.jpg);
   background-repeat: no-repeat;
   background-position: center 50%;
   height: 85vh;
@@ -384,16 +384,16 @@ footer {
   padding-top: 30px;
 }
 .porQueOrganik .explicacionUno {
-  background-image: url(../assets/img/moras.jpg);
+  background-image: url(../assets/img/uvasOpacity.png);
 }
 .porQueOrganik .explicacionDos {
-  background-image: url(../assets/img/riego.jpg);
+  background-image: url(../assets/img/Zanahoria\ y\ rabanitoOpacity.png);
 }
 .porQueOrganik .explicacionTres {
-  background-image: url(../assets/img/peras.jpg);
+  background-image: url(../assets/img/perasOpacity.png);
 }
 .porQueOrganik .explicacionCuatro {
-  background-image: url(../assets/img/campo.jpg);
+  background-image: url(../assets/img/manzanasOpacity.png);
 }
 .porQueOrganik div {
   background-repeat: no-repeat;
@@ -499,7 +499,7 @@ footer {
 }
 .datosContacto .datosContactoLeft {
   display: flex;
-  background-image: url(../assets/img/peras.jpg);
+  background-image: url(../assets/img/variedadesOpacity.png);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: start;
@@ -556,7 +556,7 @@ footer {
 .datosContacto .datosContactoRight {
   display: flex;
   flex-direction: column;
-  background-image: url(../assets/img/moras.jpg);
+  background-image: url(../assets/img/uvasOpacity.png);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
@@ -619,6 +619,12 @@ footer {
 }
 
 @media (max-width: 576px) {
+  .footerTitleBootstrap {
+    text-align: center;
+  }
+  .formFooterInputBootstrap {
+    text-align: center;
+  }
   .datosContacto {
     flex-direction: column;
   }

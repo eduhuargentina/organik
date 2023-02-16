@@ -93,7 +93,7 @@
 
     //portada preguntas frecuentes
     .portadaBgPreguntas {
-        background-image: url(../assets/img/nena\ y\ verduras.jpg);
+        background-image: url(../assets/img/moras.jpg);
         @include portadas (no-repeat, center 50%, 85vh, center, 200px, solid, map-get($paletaColores, primario), cover, 1px 1px 6px map-get($paletaColores, terciario));
     }
 

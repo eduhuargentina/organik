@@ -40,16 +40,16 @@
     padding-top: 30px;
 
     .explicacionUno{
-        background-image: url(../assets/img/moras.jpg);                
+        background-image: url(../assets/img/uvasOpacity.png);                
     }
     .explicacionDos {
-        background-image: url(../assets/img/riego.jpg);
+        background-image: url(../assets/img/Zanahoria\ y\ rabanitoOpacity.png);
         }
     .explicacionTres {
-        background-image: url(../assets/img/peras.jpg);
+        background-image: url(../assets/img/perasOpacity.png);
     }
     .explicacionCuatro {
-        background-image: url(../assets/img/campo.jpg);
+        background-image: url(../assets/img/manzanasOpacity.png);
     }
 
     div {       
@@ -172,7 +172,7 @@
     
     .datosContactoLeft {
         display: flex;
-        background-image: url(../assets/img/peras.jpg);
+        background-image: url(../assets/img/variedadesOpacity.png);
         background-repeat: no-repeat;
         background-size: cover;
         justify-content: start;
@@ -231,7 +231,7 @@
     .datosContactoRight {
         display: flex;
         flex-direction: column;
-        background-image: url(../assets/img/moras.jpg);
+        background-image: url(../assets/img/uvasOpacity.png);
         background-repeat: no-repeat;
         background-size: cover;
         justify-content: center;
