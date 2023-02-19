@@ -1,4 +1,3 @@
-
 //sección info index
 .section {
     display: flex;
@@ -11,6 +10,7 @@
     border-style: solid;
     border-color: map-get($paletaColores, primario);
     justify-content: space-evenly;
+
     .infoSection {
         display: flex;
         font-family: "Alexandria", sans-serif;
@@ -39,20 +39,23 @@
     align-items: center;
     padding-top: 30px;
 
-    .explicacionUno{
-        background-image: url(../assets/img/uvasOpacity.png);                
+    .explicacionUno {
+        background-image: url(../assets/img/uvasOpacity.png);
     }
+
     .explicacionDos {
         background-image: url(../assets/img/Zanahoria\ y\ rabanitoOpacity.png);
-        }
+    }
+
     .explicacionTres {
         background-image: url(../assets/img/perasOpacity.png);
     }
+
     .explicacionCuatro {
         background-image: url(../assets/img/manzanasOpacity.png);
     }
 
-    div {       
+    div {
         background-repeat: no-repeat;
         background-size: cover;
         width: 80%;
@@ -63,16 +66,13 @@
         border-color: map-get($paletaColores, primario);
         border-style: solid;
         padding: 20px;
-        ;
-        div{ 
-
-            h3{
-                padding: 20px;
-                
-            }
+        div {
+            h3 {
+                padding: 20px; }
             h1 {
                 padding-bottom: 20px;
             }
+
             p {
                 padding-inline: 20px;
                 padding-bottom: 20px;
@@ -83,7 +83,7 @@
 }
 
 //sección dónde estamos
-.dondeEstamos{
+.dondeEstamos {
     .nuestrosProductores {
         background-image: url(../assets/img/invernadero.jpg);
         background-repeat: no-repeat;
@@ -100,9 +100,7 @@
 
     .nuestroPuntoDeEntrega {
         @extend .nuestrosProductores;
-        background-image: url(../assets/img/nena\ y\ verduras.jpg);
-
-    }
+        background-image: url(../assets/img/nena\ y\ verduras.jpg);    }
 
     .mapa {
         display: flex;
@@ -120,6 +118,7 @@
         padding: 2px;
         justify-content: center;
         padding: 1px;
+
         img {
             width: 100%;
             opacity: 0.7;
@@ -127,6 +126,7 @@
             border-width: 3px;
             border-color: map-get($paletaColores, primario);
         }
+
         img:hover {
             opacity: 1;
         }
@@ -161,6 +161,7 @@
     border-color: map-get($paletaColores, primario);
     color: map-get($paletaColores, terciario);
     text-shadow: 1px 1px 6px map-get($paletaColores, secundario);
+
     h2 {
         text-align: center;
     }
@@ -169,7 +170,7 @@
 .datosContacto {
     display: flex;
     flex-direction: row;
-    
+
     .datosContactoLeft {
         display: flex;
         background-image: url(../assets/img/variedadesOpacity.png);
@@ -186,28 +187,31 @@
         text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
         overflow: auto;
         text-align: start;
+
         .formL {
             max-width: 500px;
             width: 100%;
             margin: 10px auto;
+
             .wapp {
                 display: flex;
                 flex-direction: row;
                 padding: 10px;
                 justify-content: start;
                 align-items: center;
+
                 a {
                     color: map-get($paletaColores, secundario);
                     justify-content: start;
                 }
+
                 h2 {
                     justify-content: center;
                     align-items: center;
                     padding-left: 5px;
                 }
             }
-            
-            
+
             .mail {
                 display: flex;
                 flex-direction: row;
@@ -215,19 +219,22 @@
                 padding: 10px;
                 justify-content: start;
                 align-items: center;
+
                 a {
                     color: map-get($paletaColores, secundario);
                     text-decoration: none;
                     justify-content: start;
                 }
+
                 h2 {
                     justify-content: center;
                     align-items: center;
                     padding-left: 5px;
                 }
-            } 
+            }
         }
     }
+
     .datosContactoRight {
         display: flex;
         flex-direction: column;
@@ -243,34 +250,40 @@
         text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
         padding: 5%;
         padding-left: 9%;
+
         .formR {
             max-width: 500px;
             width: 100%;
             margin: 10px auto;
+
             .formTitle {
                 font-size: 2rem;
                 margin-bottom: 5px;
                 width: 100%;
                 text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
             }
-            
+
             .fieldset {
                 width: 100%;
+
                 .inputText {
                     display: flex;
                     margin-bottom: 5px;
                     font-size: 1.5rem;
+
                     label {
                         width: 300px;
                         margin-right: 10%;
                         text-shadow: 1px 1px 6px map-get($paletaColores, terciario);
                     }
+
                     input {
                         width: 80%;
                         border-style: solid;
                         border-width: 1px;
                         border-color: map-get($paletaColores, primario);
                     }
+
                     .btnEnviar {
                         width: 100%;
                         background: map-get($paletaColores, secundario);
@@ -284,7 +297,7 @@
                         cursor: pointer;
                         padding: 2%;
                     }
-                    
+
                     .btnEnviar:hover {
                         background-color: map-get($paletaColores, primario);
                         color: map-get($paletaColores, secundario);
@@ -295,16 +308,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

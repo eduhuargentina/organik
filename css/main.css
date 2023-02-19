@@ -39,7 +39,7 @@
   margin: auto;
   justify-content: center;
   text-align: center;
-  padding: 100px;
+  padding: 0px;
   color: rgb(218, 248, 201);
   text-shadow: 1px 1px 6px black;
 }
@@ -194,6 +194,7 @@ footer {
 .mainSection {
   display: flex;
   flex-direction: column;
+  background-color: rgb(4, 77, 34);
 }
 
 .mainIndex {
@@ -204,7 +205,7 @@ footer {
   background-position: center 50%;
   height: 85vh;
   text-align: center;
-  padding: 200px;
+  padding: 30px;
   border-style: solid;
   border-color: rgb(4, 77, 34);
   background-size: cover;
@@ -213,6 +214,8 @@ footer {
   padding: 3%;
   padding-top: 50px;
   border-width: 3px;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 .mainIndex .mainLeft {
   display: flex;
@@ -285,60 +288,70 @@ footer {
   flex-direction: column;
 }
 .portada .portadaBgPreguntas {
+  display: flex;
+  margin-block: 3%;
   background-image: url(../assets/img/moras.jpg);
   background-repeat: no-repeat;
-  background-position: center 50%;
+  background-position: center center;
   height: 85vh;
   text-align: center;
-  padding: 200px;
+  padding: 30px;
   border-style: solid;
   border-color: rgb(4, 77, 34);
   background-size: cover;
   text-shadow: 1px 1px 6px black;
 }
 .portada .portadaContacto {
+  display: flex;
+  margin-block: 3%;
   background-image: url(../assets/img/tomates.jpg);
   background-repeat: no-repeat;
-  background-position: center 50%;
+  background-position: center center;
   height: 85vh;
   text-align: center;
-  padding: 200px;
+  padding: 30px;
   border-style: solid;
   border-color: rgb(4, 77, 34);
   background-size: cover;
   text-shadow: 1px 1px 6px black;
 }
 .portada .portadaBgdondeEstamos {
+  display: flex;
+  margin-block: 3%;
   background-image: url(../assets/img/cultivo-maiz.jpg);
   background-repeat: no-repeat;
-  background-position: center 50%;
+  background-position: center center;
   height: 85vh;
   text-align: center;
-  padding: 200px;
+  padding: 30px;
   border-style: solid;
   border-color: rgb(4, 77, 34);
   background-size: cover;
   text-shadow: 1px 1px 6px black;
 }
 .portada .portadaPorQue {
+  display: flex;
+  margin-block: 3%;
   background-image: url(../assets/img/variedades2.jpg);
   background-repeat: no-repeat;
-  background-position: center 50%;
+  background-position: center center;
   height: 85vh;
   text-align: center;
-  padding: 200px;
+  padding: 0em;
   border-style: solid;
   border-color: rgb(4, 77, 34);
   background-size: cover;
   text-shadow: 1px 1px 6px black;
 }
 .portada .avisoHacerPedido {
+  display: flex;
+  margin-block: 3%;
   background-image: url(../assets/img/variedades.jpg);
   background-repeat: no-repeat;
-  background-position: center 50%;
+  background-position: center center;
   height: 85vh;
   text-align: center;
-  padding: 200px;
+  padding: 30px;
   border-style: solid;
   border-color: rgb(4, 77, 34);
   background-size: cover;
@@ -618,6 +631,15 @@ footer {
   text-shadow: 1px 1px 6px black;
 }
 
+@media (max-width: 913px) {
+  .mainIndex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+}
 @media (max-width: 576px) {
   .footerTitleBootstrap {
     text-align: center;
@@ -662,5 +684,28 @@ footer {
   .section .infoSection {
     margin: 3px;
     width: 90%;
+  }
+  .textoPortada {
+    width: auto;
+  }
+  .portadaPorQue {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .portadaBgPreguntas {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .portadaContacto {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .portadaBgdondeEstamos {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .avisoHacerPedido {
+    margin-left: 3%;
+    margin-right: 3%;
   }
 }/*# sourceMappingURL=main.css.map */
