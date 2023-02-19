@@ -211,7 +211,6 @@ footer {
   background-size: cover;
   text-shadow: none;
   background-position: 0px;
-  padding: 3%;
   padding-top: 50px;
   border-width: 3px;
   margin-left: 1%;
@@ -223,6 +222,8 @@ footer {
   width: 40%;
   justify-content: center;
   align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 .mainIndex .mainLeft .proximosEnvios {
   font-family: "Alexandria", sans-serif;
@@ -263,6 +264,8 @@ footer {
   width: 60%;
   justify-content: center;
   align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 .mainIndex .mainRight .bolsones {
   font-family: "Alexandria", sans-serif;
@@ -662,18 +665,23 @@ footer {
     align-items: center;
     width: 100%;
     height: auto;
+    padding: 0%;
   }
   .mainIndex .mainLeft {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 0%;
   }
   .mainIndex .mainRight {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0%;
   }
   .section {
     flex-direction: column;

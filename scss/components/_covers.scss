@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     background-color: map-get($paletaColores, primario);
+
 }
 
 .mainIndex {
@@ -19,11 +20,11 @@
         cover,
         none);
     background-position: 0px;
-    padding: 3%;
     padding-top: 50px;
     border-width: 3px;
     margin-left: 1%;
     margin-right: 1%;
+
 
     .mainLeft {
         display: flex;
@@ -31,6 +32,8 @@
         width: 40%;
         justify-content: center;
         align-items: center;
+        margin-left: 1%;
+        margin-right: 1%;
 
         .proximosEnvios {
             font-family: "Alexandria", sans-serif;
@@ -75,6 +78,8 @@
         width: 60%;
         justify-content: center;
         align-items: center;
+        margin-left: 1%;
+        margin-right: 1%;
 
         .bolsones {
             font-family: "Alexandria", sans-serif;
